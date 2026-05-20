@@ -1,0 +1,133 @@
+<div align="center">
+
+# Image2 & Seedance 2 Prompt Cookbook
+
+*A prompt template library for Image2 image generation and Seedance 2 video generation.*
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Bahasa Indonesia](README.id.md)
+
+![Image2](https://img.shields.io/badge/Image2-Image%20Generation-blue?style=flat-square)
+![Seedance 2](https://img.shields.io/badge/Seedance%202-Video%20Generation-purple?style=flat-square)
+![JSON](https://img.shields.io/badge/Format-JSON-lightgrey?style=flat-square)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
+</div>
+
+---
+
+## Overview
+
+The **Image2 & Seedance 2 Prompt Cookbook** is a curated collection of prompt templates for AI-powered image and video generation. It focuses on reusable, well-structured prompt patterns — not visual styles.
+
+This project provides:
+- Standardized `prompt.json` format for storing prompt templates
+- Multilingual prompt support (Chinese and English)
+- Structured variable system for easy prompt customization
+- Example cases demonstrating each prompt in action
+- Automated import pipeline for new prompt submissions
+- Auto-generated prompt galleries across all README files
+
+## Supported Models
+
+| Model | Type | Description |
+| --- | --- | --- |
+| **Image2** | Image Generation | High-quality still image generation |
+| **Seedance 2** | Video Generation | AI-powered video clip generation |
+
+## Directory Structure
+
+```
+.
+├── README.md                     # You are here
+├── README.zh-CN.md               # Simplified Chinese
+├── README.zh-TW.md               # Traditional Chinese
+├── README.ja.md                  # Japanese
+├── README.ko.md                  # Korean
+├── README.id.md                  # Indonesian
+├── LICENSE                       # MIT License
+├── package.json                  # Project scripts
+├── scripts/
+│   ├── import-prompt.mjs         # Import prompts from inbox/
+│   └── update-readme.mjs         # Regenerate README galleries
+├── .claude/
+│   └── skills/
+│       └── prompt-importer/
+│           └── SKILL.md          # Claude Code skill definition
+├── assets/                       # Shared assets (logos, etc.)
+├── inbox/                        # New prompt submissions go here
+│   ├── image2/
+│   └── seedance2/
+├── templates/                    # Template files
+│   ├── image2.prompt.template.json
+│   ├── seedance2.prompt.template.json
+│   └── prompt.md.template
+├── image2/                       # Image2 prompt templates
+│   ├── _template/                # Schema reference
+│   ├── portrait/
+│   ├── product/
+│   ├── poster/
+│   ├── character/
+│   ├── architecture/
+│   └── style/
+├── seedance2/                    # Seedance 2 prompt templates
+│   ├── _template/                # Schema reference
+│   ├── cinematic/
+│   ├── product-video/
+│   ├── camera-movement/
+│   ├── character-motion/
+│   ├── image-to-video/
+│   └── social-video/
+└── docs/                         # Documentation
+    ├── prompt-json-spec.md
+    ├── image2-guide.md
+    ├── seedance2-guide.md
+    └── contribution-guide.md
+```
+
+## Prompt JSON Format
+
+Every prompt is stored as a `prompt.json` file with a standardized schema. Each contains:
+
+- **Metadata**: name, slug, model, version, category
+- **Multilingual content**: Chinese and English summaries, prompts, negative prompts
+- **Structured variables**: replaceable template variables with labels and examples
+- **Example cases**: filled-in prompts showing the template in action
+- **Recommended parameters**: aspect ratios, quality settings, and notes
+
+See [docs/prompt-json-spec.md](docs/prompt-json-spec.md) for the complete specification.
+
+## How to Add a Prompt
+
+1. Copy `templates/prompt.md.template` to `inbox/<model>/<your-slug>/prompt.md`
+2. Fill in the frontmatter and all sections
+3. Add a preview image (`example.jpg`) in the same directory
+4. Run `npm run build`
+
+```bash
+# Normal import (skips existing directories)
+npm run build
+
+# Force overwrite existing prompts
+npm run import -- --force
+npm run update-readme
+```
+
+See [docs/contribution-guide.md](docs/contribution-guide.md) for detailed instructions.
+
+## Prompt Gallery
+
+<!-- PROMPT_GALLERY_START -->
+No prompts have been added yet.
+<!-- PROMPT_GALLERY_END -->
+
+## Contribution
+
+Contributions are welcome! Please see [docs/contribution-guide.md](docs/contribution-guide.md) for the full contribution workflow.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Disclaimer
+
+This project is an independent community effort. It is not affiliated with or endorsed by any AI model provider. All prompt templates are original works contributed by the community. The project does not distribute generated images or proprietary model weights.

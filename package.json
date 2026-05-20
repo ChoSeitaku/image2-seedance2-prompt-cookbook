@@ -1,0 +1,28 @@
+{
+  "name": "image2-seedance2-prompt-cookbook",
+  "version": "1.0.0",
+  "description": "A prompt template library for Image2 image generation and Seedance 2 video generation.",
+  "type": "module",
+  "scripts": {
+    "import": "node scripts/import-prompt.mjs",
+    "update-readme": "node scripts/update-readme.mjs",
+    "build": "node scripts/import-prompt.mjs && node scripts/update-readme.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/image2-seedance2-prompt-cookbook"
+  },
+  "keywords": [
+    "image2",
+    "seedance2",
+    "prompt-templates",
+    "image-generation",
+    "video-generation",
+    "ai-prompts",
+    "prompt-engineering"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "prompt_name": "",
+  "prompt_slug": "",
+  "model": "Image2",
+  "version": "1.0.0",
+  "category": "",
+  "language": ["zh", "en"],
+  "summary": {
+    "zh": "",
+    "en": ""
+  },
+  "use_case": {
+    "zh": [],
+    "en": []
+  },
+  "preview": {
+    "image": "example.jpg"
+  },
+  "prompt_template": {
+    "zh": "",
+    "en": ""
+  },
+  "negative_prompt": {
+    "zh": "",
+    "en": ""
+  },
+  "variables": {
+    "SUBJECT": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "LOCATION": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "COMPOSITION": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "CAMERA_ANGLE": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "LIGHTING": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "COLOR_PALETTE": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "STYLE": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "TEXTURE": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "MOOD": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    }
+  },
+  "example_cases": [],
+  "recommended_aspect_ratio": ["1:1", "4:5", "9:16", "16:9"],
+  "recommended_parameters": {
+    "aspect_ratio": "",
+    "quality": "",
+    "seed": "",
+    "notes": {
+      "zh": "",
+      "en": ""
+    }
+  },
+  "tags": [],
+  "created_at": "",
+  "updated_at": "",
+  "license": "MIT"
+}

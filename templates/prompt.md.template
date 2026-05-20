@@ -1,0 +1,59 @@
+---
+model: image2
+category: portrait
+slug: my-prompt-slug
+prompt_name: My Prompt Name
+summary_zh: 在这里填写中文一句话简介。
+summary_en: Write a one-line English summary here.
+tags:
+  - image2
+  - example
+recommended_aspect_ratio:
+  - 1:1
+  - 16:9
+license: MIT
+---
+# 中文提示词
+在这里填写中文提示词。
+
+# English Prompt
+Write the English prompt here.
+
+# 中文反向提示词
+低质量，模糊，水印，变形。
+
+# English Negative Prompt
+low quality, blurry, watermark, deformed.
+
+# 使用场景 zh
+- 场景A
+- 场景B
+
+# Use Cases en
+- Use case A
+- Use case B
+
+# 变量 Variables
+| Key | zh | en | example_zh | example_en |
+| --- | --- | --- | --- | --- |
+| SUBJECT | 主体 | Subject | 一位年轻女性 | a young woman |
+| LOCATION | 场景 | Location | 城市街道 | a city street |
+
+# 示例 Cases
+## Case 1
+### case_name
+Example Case Name
+
+### variables
+```json
+{
+  "SUBJECT": "一位年轻女性",
+  "LOCATION": "城市街道"
+}
+```
+
+### prompt_zh
+这里填写完整的替换变量后的中文成品提示词。
+
+### prompt_en
+Write the complete English prompt with variables filled in here.

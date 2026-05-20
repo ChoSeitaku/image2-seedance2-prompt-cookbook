@@ -1,0 +1,118 @@
+{
+  "prompt_name": "",
+  "prompt_slug": "",
+  "model": "Seedance 2",
+  "version": "1.0.0",
+  "category": "",
+  "language": ["zh", "en"],
+  "summary": {
+    "zh": "",
+    "en": ""
+  },
+  "use_case": {
+    "zh": [],
+    "en": []
+  },
+  "preview": {
+    "image": "example.jpg"
+  },
+  "prompt_template": {
+    "zh": "",
+    "en": ""
+  },
+  "negative_prompt": {
+    "zh": "",
+    "en": ""
+  },
+  "variables": {
+    "DURATION": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "SUBJECT": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "LOCATION": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "ACTION": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "MOOD": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "START_FRAME": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "END_FRAME": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "CAMERA_MOVEMENT": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "LIGHTING": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "COLOR_PALETTE": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "STYLE": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    },
+    "PACE": {
+      "zh": "",
+      "en": "",
+      "example_zh": "",
+      "example_en": ""
+    }
+  },
+  "example_cases": [],
+  "recommended_aspect_ratio": ["16:9", "9:16"],
+  "recommended_duration": ["5s", "10s"],
+  "recommended_parameters": {
+    "duration": "",
+    "aspect_ratio": "",
+    "motion_strength": "",
+    "seed": "",
+    "notes": {
+      "zh": "",
+      "en": ""
+    }
+  },
+  "tags": [],
+  "created_at": "",
+  "updated_at": "",
+  "license": "MIT"
+}
