@@ -117,7 +117,9 @@ npm run update-readme
 ## 프롬프트 갤러리
 
 <!-- PROMPT_GALLERY_START -->
-아직 프롬프트가 추가되지 않았습니다.
+| 미리보기 | 모델 | 분류 | 프롬프트 | 태그 |
+| --- | --- | --- | --- | --- |
+| <img src="image2/portrait/soft-pink-boudoir-fashion-proposal/example.png" alt="Soft Pink Boudoir Fashion Proposal" width="80"> | image2 | portrait | [Soft Pink Boudoir Fashion Proposal](image2/portrait/soft-pink-boudoir-fashion-proposal/) | image2, portrait, fashion, infographic, chinese |
 <!-- PROMPT_GALLERY_END -->
 
 ## 기여

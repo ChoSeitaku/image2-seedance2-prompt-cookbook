@@ -1,0 +1,149 @@
+{
+  "prompt_name": "Soft Pink Boudoir Fashion Proposal",
+  "prompt_slug": "soft-pink-boudoir-fashion-proposal",
+  "model": "Image2",
+  "version": "1.0.0",
+  "category": "portrait",
+  "language": [
+    "zh",
+    "en"
+  ],
+  "summary": {
+    "zh": "一张明亮柔美的女性向甜欲轻奢束缚风时尚提案中文信息图。",
+    "en": "A bright and elegant feminine fashion proposal infographic with soft pink boudoir-inspired styling."
+  },
+  "use_case": {
+    "zh": [
+      "女性向甜欲穿搭提案信息图",
+      "小红书风格时尚造型板",
+      "私密约会造型灵感图",
+      "高级情趣时尚视觉提案",
+      "蕾丝、丝带、珍珠材质搭配指南",
+      "时尚杂志式中文信息图",
+      "轻奢女性内搭与外搭推荐",
+      "甜美性感但不露骨的造型参考"
+    ],
+    "en": [
+      "Feminine sweet-sensual fashion proposal infographic",
+      "Xiaohongshu-style styling board",
+      "Private date outfit inspiration",
+      "Premium boudoir-inspired fashion concept",
+      "Lace, ribbon, and pearl material pairing guide",
+      "Editorial Chinese fashion infographic",
+      "Luxury feminine layering recommendation",
+      "Sweet and sensual but non-explicit styling reference"
+    ]
+  },
+  "preview": {
+    "image": "example.png"
+  },
+  "prompt_template": {
+    "zh": "生成一张横版 4:3 的中文信息图，主题为「{{STYLE}}」。\r\n整体方向是明亮、柔美、高级、女性向的甜欲时尚提案板。画面需要呈现轻奢情趣时尚、娇羞甜美、柔软浪漫、轻度束缚灵感，但必须保持优雅、精致、可穿搭、非露骨、无裸露、无低俗感。整体像顶级女性向时尚杂志、小红书甜欲穿搭博主、私密约会造型提案板。\r\n主色调使用樱粉、玫瑰红、香槟金、奶白、浅杏、柔雾裸粉等柔和诱人的高级色系。背景为明亮柔和浅色背景，可以是奶白、浅粉、香槟色渐变，搭配柔光、纸张质感、轻微珍珠光泽和高级杂志排版。\r\n画面主体为一位 25-35 岁的中国轻熟女性模特，面容甜美耐看，妆容干净精致，表情自然娇羞、温柔、略带被注视时的羞涩感。姿态自然柔软：微微低头、侧身轻转、肩颈放松、手指轻触丝带或衣料细节，整体感觉像被温柔注视的时尚大片。模特完整穿着效果必须优雅可穿，像高级情趣灵感时尚，而不是暴露服装。\r\n版面采用时尚提案板信息图布局，分为左侧大图区、中部细节拆解区、右侧信息模块和底部外搭推荐区。\r\n左侧大图区：\r\n展示模特的完整造型效果。服装是高级甜欲风造型，包含柔软蕾丝、冰丝缎带、轻薄纱料、珍珠链、装饰性金属小环、细腻丝带绑带、轻度束缚风配饰等元素。所有配饰都应时尚化、装饰化、非功能性，像高级女性向造型单品。整体造型甜美、诱惑、明亮、优雅，强调精致剪裁、柔软触感和可穿搭延展性。\r\n中部细节拆解区：\r\n平铺展示关键单品和局部放大细节，包括：\r\n- 法式蕾丝花边\r\n- 樱粉冰丝缎带\r\n- 玫瑰红细节绑带\r\n- 香槟金装饰小环\r\n- 珍珠链光泽\r\n- 柔软薄纱材质\r\n- 细腻缎面触感\r\n- 精致边缘走线\r\n用中文小标签标注，例如：\r\n「超软触感」\r\n「樱粉丝带一系就很温柔」\r\n「珍珠光泽好显贵」\r\n「轻轻一拉就有氛围」\r\n「蕾丝边细节很会」\r\n「柔软又精致」\r\n右侧信息模块：\r\n设计为清晰的中文时尚建议卡片，包含以下内容：\r\n风格关键词：\r\n娇羞诱惑 / 甜蜜氛围 / 温柔束缚感 / 轻奢情趣时尚 / 可穿甜欲风\r\n色彩搭配建议：\r\n樱粉主调、玫瑰红点缀、香槟金提亮、奶白平衡、浅杏柔化整体气质。\r\n材质构成：\r\n法式蕾丝、冰丝缎带、珍珠链、轻薄纱料、柔雾缎面、细腻金属装饰。\r\n适用场景：\r\n私密约会、居家拍摄、甜欲穿搭写真、叠穿日常裙装、女性向造型灵感板。\r\n手写风中文注释：\r\n在画面周围加入可爱、娇羞、甜欲但不露骨的中文手写注释，例如：\r\n「这个樱粉丝带一系就脸红了」\r\n「轻轻拉一下就很有氛围」\r\n「乖乖穿上也太甜了」\r\n「柔软感直接拉满」\r\n「甜甜的但很高级」\r\n「约会前偷偷准备的小心机」\r\n底部外搭推荐区：\r\n展示 3 个不同 Look，以小卡片形式排列：\r\nLook 1：\r\n叠穿薄纱衬衫的日常甜欲风。整体轻盈、透明感适中，适合日常外搭。\r\nLook 2：\r\n针织开衫 + 短裙的乖巧娇羞风。强调软糯、温柔、甜美、邻家感。\r\nLook 3：\r\n长裙外披轻纱的浪漫氛围风。强调优雅、若隐若现的层次感和柔美仪式感。\r\n排版要求：\r\n横版 4:3，信息图结构清晰，中文标题醒目，模块分区明确。使用时尚杂志式排版、小红书风格贴纸标签、柔和手写注释、精致引线标注、局部放大框。整体画面必须明亮、干净、高级、柔美、诱惑但不低俗。不要出现裸露、低俗姿势、强迫感、暴力感、暗黑压迫感或不适内容。",
+    "en": "Create a horizontal 4:3 Chinese fashion infographic titled \"{{STYLE}}\".\r\nThe overall direction should be bright, soft, elegant, feminine, and premium. The visual concept is a sweet boudoir-inspired fashion proposal board with gentle romantic styling, soft sensuality, and light bondage-inspired fashion details. The image must remain elegant, refined, wearable, non-explicit, non-nude, and tasteful. It should feel like a top-tier feminine fashion magazine layout, a Xiaohongshu-style sweet-sensual styling board, or a private date outfit proposal.\r\nUse a soft and seductive premium color palette: cherry blossom pink, rose red, champagne gold, milk white, pale apricot, and misty nude pink. The background should be bright and gentle, using milk white, pale pink, or champagne gradients, with soft lighting, subtle paper texture, pearl-like highlights, and refined editorial layout.\r\nThe main subject is a Chinese woman aged 25-35 with a sweet, elegant, and memorable face. Her makeup is clean and refined. Her expression is naturally shy, gentle, and softly bashful, as if she is being warmly admired. Her pose should be natural and soft: slightly lowering her head, gently turning sideways, relaxed shoulders and neck, fingers lightly touching a ribbon or fabric detail. The overall feeling should be feminine, romantic, and editorial. Her full outfit must look elegant and wearable, like premium boudoir-inspired fashion rather than revealing clothing.\r\nThe layout should be a fashion proposal board infographic with four sections: a large left-side hero image, a central detail breakdown area, a right-side information module, and a bottom outfit recommendation strip.\r\nLeft hero section:\r\nShow the full outfit on the model. The styling should feature soft lace, icy silk ribbons, sheer fabric, pearl chains, decorative small metal rings, delicate ribbon straps, and light bondage-inspired accessories. All accessories must be fashion-oriented, decorative, non-functional, and refined. The full look should feel sweet, seductive, bright, elegant, and wearable, emphasizing delicate tailoring, soft touch, and styling versatility.\r\nCentral detail breakdown section:\r\nDisplay flat-lay key items and close-up details, including:\r\n- French lace trim\r\n- Cherry blossom pink silk ribbon\r\n- Rose red strap details\r\n- Champagne gold decorative rings\r\n- Pearl chain shine\r\n- Soft sheer fabric\r\n- Smooth satin texture\r\n- Delicate edge stitching\r\nAdd small Chinese labels such as:\r\n“超软触感”\r\n“樱粉丝带一系就很温柔”\r\n“珍珠光泽好显贵”\r\n“轻轻一拉就有氛围”\r\n“蕾丝边细节很会”\r\n“柔软又精致”\r\nRight information module:\r\nCreate a clear Chinese fashion advice card with the following sections:\r\nStyle keywords:\r\n娇羞诱惑 / 甜蜜氛围 / 温柔束缚感 / 轻奢情趣时尚 / 可穿甜欲风\r\nColor pairing advice:\r\nCherry blossom pink as the main tone, rose red as accent, champagne gold for highlights, milk white for balance, and pale apricot to soften the overall mood.\r\nMaterial composition:\r\nFrench lace, icy silk ribbon, pearl chains, sheer fabric, misty satin, delicate metallic decorations.\r\nUse cases:\r\nPrivate dates, home photoshoots, sweet-sensual portraits, layering with daily dresses, feminine styling inspiration board.\r\nHandwritten Chinese notes:\r\nAdd cute, shy, sweet-sensual but non-explicit handwritten annotations around the layout, such as:\r\n“这个樱粉丝带一系就脸红了”\r\n“轻轻拉一下就很有氛围”\r\n“乖乖穿上也太甜了”\r\n“柔软感直接拉满”\r\n“甜甜的但很高级”\r\n“约会前偷偷准备的小心机”\r\nBottom outfit recommendation section:\r\nShow three different Look cards:\r\nLook 1:\r\nDaily sweet-sensual styling with a sheer shirt layered over the outfit. Light, airy, and wearable.\r\nLook 2:\r\nSoft shy styling with a knit cardigan and short skirt. Cozy, gentle, sweet, and innocent.\r\nLook 3:\r\nRomantic atmosphere styling with a long dress and sheer outer layer. Elegant, layered, soft, and ceremonial.\r\nLayout requirements:\r\nHorizontal 4:3 composition, clear infographic structure, prominent Chinese title, modular sections, fashion magazine layout, Xiaohongshu-style sticker labels, soft handwritten annotations, refined callout lines, and close-up detail frames. The whole image must be bright, clean, premium, soft, feminine, seductive but never vulgar. Avoid nudity, explicit content, vulgar poses, coercive mood, violent tone, dark oppressive atmosphere, or uncomfortable content."
+  },
+  "negative_prompt": {
+    "zh": "低质量，模糊，水印，二维码，平台标识，低俗，裸露，色情，露骨姿势，强迫感，暴力感，暗黑压迫感，廉价情趣用品广告感，过度暴露，身体畸形，脸部变形，手指错误，多余肢体，文字乱码，错别字，大面积杂乱排版，脏乱背景，过暗光线，粗糙皮肤，塑料质感，过度磨皮，不自然表情，未成年人，幼态化，校园制服暗示。",
+    "en": "low quality, blurry, watermark, QR code, platform logo, vulgar, nudity, pornographic, explicit pose, coercive mood, violent mood, dark oppressive atmosphere, cheap adult product advertisement look, overly revealing outfit, deformed body, distorted face, bad hands, extra fingers, extra limbs, unreadable text, misspelled text, messy layout, dirty background, overly dark lighting, rough skin, plastic texture, over-smoothed skin, unnatural expression, minors, childish appearance, school uniform implication."
+  },
+  "variables": {
+    "SUBJECT": {
+      "zh": "模特主体",
+      "en": "Subject",
+      "example_zh": "一位25-35岁的中国轻熟女性，面容甜美耐看",
+      "example_en": "a Chinese woman aged 25-35 with a sweet and elegant face"
+    },
+    "LOCATION": {
+      "zh": "场景",
+      "en": "Location",
+      "example_zh": "明亮柔和的浅色背景摄影棚",
+      "example_en": "a bright and soft pastel studio setting"
+    },
+    "COMPOSITION": {
+      "zh": "构图布局",
+      "en": "Composition",
+      "example_zh": "横版4:3，时尚提案板信息图布局",
+      "example_en": "horizontal 4:3, fashion proposal board infographic layout"
+    },
+    "CAMERA_ANGLE": {
+      "zh": "镜头角度",
+      "en": "Camera Angle",
+      "example_zh": "正面偏侧，柔焦浅景深",
+      "example_en": "slightly off-center front view, soft focus with shallow depth of field"
+    },
+    "LIGHTING": {
+      "zh": "光线",
+      "en": "Lighting",
+      "example_zh": "明亮柔光，轻微珍珠光泽",
+      "example_en": "bright soft lighting with subtle pearl-like highlights"
+    },
+    "COLOR_PALETTE": {
+      "zh": "色彩搭配",
+      "en": "Color Palette",
+      "example_zh": "樱粉、玫瑰红、香槟金、奶白、浅杏",
+      "example_en": "cherry blossom pink, rose red, champagne gold, milk white, pale apricot"
+    },
+    "STYLE": {
+      "zh": "风格",
+      "en": "Style",
+      "example_zh": "娇羞诱惑 / 甜蜜氛围 / 温柔束缚感 / 可穿甜欲风",
+      "example_en": "shy allure / sweet atmosphere / gentle restraint-inspired mood / wearable sweet-sensual style"
+    },
+    "TEXTURE": {
+      "zh": "材质质感",
+      "en": "Texture",
+      "example_zh": "法式蕾丝、冰丝缎带、珍珠链、轻薄纱料",
+      "example_en": "French lace, icy silk ribbon, pearl chains, sheer fabric"
+    },
+    "MOOD": {
+      "zh": "氛围",
+      "en": "Mood",
+      "example_zh": "明亮柔美、高级甜欲、自然娇羞",
+      "example_en": "bright, soft, premium, sweetly sensual, naturally shy"
+    }
+  },
+  "example_cases": [
+    {
+      "case_name": "樱粉甜欲轻奢时尚提案",
+      "variables": {
+        "SUBJECT": "一位25-35岁的中国轻熟女性，面容甜美耐看，表情自然娇羞",
+        "LOCATION": "明亮柔和的浅色背景摄影棚，奶白到浅粉渐变",
+        "COMPOSITION": "横版4:3，时尚提案板信息图布局，左侧大图、中部细节、右侧信息、底部推荐",
+        "CAMERA_ANGLE": "正面偏侧，柔焦浅景深，突出模特柔美气质",
+        "LIGHTING": "明亮柔光，轻微珍珠光泽，纸张质感",
+        "COLOR_PALETTE": "樱粉、玫瑰红、香槟金、奶白、浅杏",
+        "STYLE": "娇羞诱惑 / 甜蜜氛围 / 温柔束缚感 / 轻奢情趣时尚 / 可穿甜欲风",
+        "TEXTURE": "法式蕾丝、冰丝缎带、珍珠链、轻薄纱料、柔雾缎面",
+        "MOOD": "明亮柔美、高级甜欲、自然娇羞、温柔浪漫"
+      },
+      "prompt_zh": "生成一张横版 4:3 的中文信息图，标题为「性感娇羞轻奢时尚提案」。\r\n\r\n整体方向是明亮、柔美、高级、女性向的甜欲时尚提案板。画面需要呈现轻奢情趣时尚、娇羞甜美、柔软浪漫、轻度束缚灵感，但必须保持优雅、精致、可穿搭、非露骨、无裸露、无低俗感。整体像顶级女性向时尚杂志、小红书甜欲穿搭博主、私密约会造型提案板。\r\n\r\n主色调使用樱粉、玫瑰红、香槟金、奶白、浅杏等柔和诱人的高级色系。背景为明亮柔和浅色背景，可以是奶白、浅粉、香槟色渐变，搭配柔光、纸张质感、轻微珍珠光泽和高级杂志排版。\r\n\r\n画面主体为一位 25-35 岁的中国轻熟女性模特，面容甜美耐看，妆容干净精致，表情自然娇羞、温柔、略带被注视时的羞涩感。姿态自然柔软：微微低头、侧身轻转、肩颈放松、手指轻触丝带或衣料细节。模特完整穿着高级甜欲风可穿搭造型，带装饰性丝带、珍珠链、蕾丝花边与香槟金小环细节。整体造型甜美、诱惑、明亮、优雅，强调精致剪裁、柔软触感和可穿搭延展性。\r\n\r\n版面采用时尚提案板信息图布局，分为左侧大图区、中部细节拆解区、右侧信息模块和底部外搭推荐区。\r\n\r\n左侧大图区展示模特完整造型效果。服装包含法式蕾丝、冰丝缎带、珍珠链、轻薄纱料、柔雾缎面、装饰性金属小环、细腻丝带绑带等元素。所有配饰都应时尚化、装饰化、非功能性，像高级女性向造型单品。\r\n\r\n中部细节拆解区平铺展示关键单品和局部放大细节，包括法式蕾丝花边、樱粉冰丝缎带、玫瑰红细节绑带、香槟金装饰小环、珍珠链光泽、柔软薄纱材质、细腻缎面触感和精致边缘走线。加入中文小标签：「超软触感」「樱粉丝带一系就很温柔」「珍珠光泽好显贵」「轻轻一拉就有氛围」「蕾丝边细节很会」「柔软又精致」。\r\n\r\n右侧信息模块包含风格关键词：娇羞诱惑 / 甜蜜氛围 / 温柔束缚感 / 轻奢情趣时尚 / 可穿甜欲风。色彩搭配建议：樱粉主调、玫瑰红点缀、香槟金提亮、奶白平衡、浅杏柔化整体气质。材质构成：法式蕾丝、冰丝缎带、珍珠链、轻薄纱料、柔雾缎面、细腻金属装饰。适用场景：私密约会、居家拍摄、甜欲穿搭写真、叠穿日常裙装、女性向造型灵感板。\r\n\r\n在画面周围加入可爱、娇羞、甜欲但不露骨的中文手写注释：「这个樱粉丝带一系就脸红了」「轻轻拉一下就很有氛围」「乖乖穿上也太甜了」「柔软感直接拉满」「甜甜的但很高级」「约会前偷偷准备的小心机」。\r\n\r\n底部外搭推荐展示 3 个 Look：Look 1，叠穿薄纱衬衫的日常甜欲风；Look 2，针织开衫 + 短裙的乖巧娇羞风；Look 3，长裙外披轻纱的浪漫氛围风。\r\n\r\n整体横版 4:3，信息图结构清晰，中文标题醒目，模块分区明确。使用时尚杂志式排版、小红书风格贴纸标签、柔和手写注释、精致引线标注、局部放大框。整体画面必须明亮、干净、高级、柔美、诱惑但不低俗。不要出现裸露、低俗姿势、强迫感、暴力感、暗黑压迫感或不适内容。",
+      "prompt_en": "Create a horizontal 4:3 Chinese infographic titled “Soft Pink Boudoir Fashion Proposal”.\r\n\r\nThe overall direction should be bright, soft, elegant, feminine, and premium. The visual concept is a sweet boudoir-inspired fashion proposal board with gentle romantic styling, soft sensuality, and light restraint-inspired fashion details. The image must remain elegant, refined, wearable, non-explicit, non-nude, and tasteful. It should feel like a top-tier feminine fashion magazine layout, a Xiaohongshu-style sweet-sensual styling board, or a private date outfit proposal.\r\n\r\nUse a premium soft color palette of cherry blossom pink, rose red, champagne gold, milk white, and pale apricot. The background should be bright and gentle, using milk white, pale pink, or champagne gradients, with soft lighting, subtle paper texture, pearl-like highlights, and refined editorial layout.\r\n\r\nThe main subject is a Chinese woman aged 25-35 with a sweet and elegant face. Her makeup is clean and refined. Her expression is naturally shy, gentle, and softly bashful, as if warmly admired. Her pose is natural and soft: slightly lowering her head, gently turning sideways, relaxed shoulders and neck, fingers lightly touching a ribbon or fabric detail. She wears a premium sweet-sensual outfit with decorative ribbons, pearl chains, lace trim, and champagne gold ring details. The full look should be sweet, seductive, bright, elegant, and wearable, emphasizing delicate tailoring, soft touch, and styling versatility.\r\n\r\nThe layout should be a fashion proposal board infographic divided into a large left hero section, a central detail breakdown area, a right information module, and a bottom outfit recommendation strip.\r\n\r\nThe left hero section shows the full outfit on the model. The clothing includes French lace, icy silk ribbons, pearl chains, sheer fabric, misty satin, decorative small metal rings, and delicate ribbon straps. All accessories should be fashion-oriented, decorative, non-functional, and refined.\r\n\r\nThe central detail breakdown section shows flat-lay key items and close-up details, including French lace trim, cherry blossom pink silk ribbon, rose red strap details, champagne gold decorative rings, pearl chain shine, soft sheer fabric, smooth satin texture, and delicate edge stitching. Add Chinese labels such as “超软触感”, “樱粉丝带一系就很温柔”, “珍珠光泽好显贵”, “轻轻一拉就有氛围”, “蕾丝边细节很会”, and “柔软又精致”.\r\n\r\nThe right information module includes style keywords: shy allure / sweet atmosphere / gentle restraint-inspired mood / premium boudoir fashion / wearable sweet-sensual style. Color advice: cherry blossom pink as the main tone, rose red accents, champagne gold highlights, milk white balance, and pale apricot softness. Materials: French lace, icy silk ribbon, pearl chains, sheer fabric, misty satin, and delicate metallic decorations. Use cases: private dates, home photoshoots, sweet-sensual portraits, daily dress layering, and feminine styling inspiration boards.\r\n\r\nAdd cute, shy, sweet-sensual but non-explicit handwritten Chinese annotations around the layout: “这个樱粉丝带一系就脸红了”, “轻轻拉一下就很有氛围”, “乖乖穿上也太甜了”, “柔软感直接拉满”, “甜甜的但很高级”, “约会前偷偷准备的小心机”.\r\n\r\nThe bottom outfit recommendation section shows three Look cards: Look 1, daily sweet-sensual styling layered with a sheer shirt; Look 2, soft shy styling with a knit cardigan and short skirt; Look 3, romantic atmosphere styling with a long dress and sheer outer layer.\r\n\r\nThe final image should be horizontal 4:3, with a clear infographic structure, prominent Chinese title, modular sections, fashion magazine layout, Xiaohongshu-style sticker labels, soft handwritten annotations, refined callout lines, and close-up detail frames. The whole image must be bright, clean, premium, soft, feminine, seductive but never vulgar. Avoid nudity, explicit content, vulgar poses, coercive mood, violent tone, dark oppressive atmosphere, or uncomfortable content."
+    }
+  ],
+  "recommended_aspect_ratio": [
+    "4:3"
+  ],
+  "recommended_parameters": {
+    "aspect_ratio": "",
+    "quality": "",
+    "seed": "",
+    "notes": {
+      "zh": "",
+      "en": ""
+    }
+  },
+  "tags": [
+    "image2",
+    "portrait",
+    "fashion",
+    "infographic",
+    "chinese",
+    "soft-pink",
+    "boudoir",
+    "editorial",
+    "feminine",
+    "styling-board"
+  ],
+  "created_at": "2026-05-21T02:43:05.328Z",
+  "updated_at": "2026-05-21T02:43:05.328Z",
+  "license": "MIT"
+}

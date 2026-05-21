@@ -117,7 +117,9 @@ npm run update-readme
 ## プロンプトギャラリー
 
 <!-- PROMPT_GALLERY_START -->
-プロンプトはまだ追加されていません。
+| プレビュー | モデル | カテゴリ | プロンプト | タグ |
+| --- | --- | --- | --- | --- |
+| <img src="image2/portrait/soft-pink-boudoir-fashion-proposal/example.png" alt="Soft Pink Boudoir Fashion Proposal" width="80"> | image2 | portrait | [Soft Pink Boudoir Fashion Proposal](image2/portrait/soft-pink-boudoir-fashion-proposal/) | image2, portrait, fashion, infographic, chinese |
 <!-- PROMPT_GALLERY_END -->
 
 ## コントリビューション

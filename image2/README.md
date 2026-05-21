@@ -16,7 +16,9 @@ This directory contains prompt templates for **Image2** image generation.
 ## Prompt Gallery
 
 <!-- PROMPT_GALLERY_START -->
-No prompts have been added yet.
+| Preview | Model | Category | Prompt | Tags |
+| --- | --- | --- | --- | --- |
+| <img src="image2/portrait/soft-pink-boudoir-fashion-proposal/example.png" alt="Soft Pink Boudoir Fashion Proposal" width="80"> | image2 | portrait | [Soft Pink Boudoir Fashion Proposal](image2/portrait/soft-pink-boudoir-fashion-proposal/) | image2, portrait, fashion, infographic, chinese |
 <!-- PROMPT_GALLERY_END -->
 
 ## Template

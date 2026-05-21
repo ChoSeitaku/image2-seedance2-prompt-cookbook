@@ -206,7 +206,10 @@ function parseExampleCases(body) {
     const subMatch = line.match(/^###\s+(.+)/);
     if (subMatch) {
       if (currentField) {
-        currentCase[currentField] = (currentCase[currentField] || '').trim();
+        const val = currentCase[currentField];
+        if (typeof val === 'string') {
+          currentCase[currentField] = val.trim();
+        }
       }
       currentField = subMatch[1].trim().toLowerCase().replace(/\s+/g, '_');
       currentCase[currentField] = '';

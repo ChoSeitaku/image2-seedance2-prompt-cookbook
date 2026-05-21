@@ -117,7 +117,9 @@ npm run update-readme
 ## 提示詞目錄
 
 <!-- PROMPT_GALLERY_START -->
-暫未添加正式提示詞。
+| 預覽 | 模型 | 分類 | 提示詞 | 標籤 |
+| --- | --- | --- | --- | --- |
+| <img src="image2/portrait/soft-pink-boudoir-fashion-proposal/example.png" alt="Soft Pink Boudoir Fashion Proposal" width="80"> | image2 | portrait | [Soft Pink Boudoir Fashion Proposal](image2/portrait/soft-pink-boudoir-fashion-proposal/) | image2, portrait, fashion, infographic, chinese |
 <!-- PROMPT_GALLERY_END -->
 
 ## 貢獻

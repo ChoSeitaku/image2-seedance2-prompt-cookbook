@@ -117,7 +117,9 @@ Lihat [docs/contribution-guide.md](docs/contribution-guide.md) untuk instruksi d
 ## Galeri Prompt
 
 <!-- PROMPT_GALLERY_START -->
-Belum ada prompt yang ditambahkan.
+| Pratinjau | Model | Kategori | Prompt | Tag |
+| --- | --- | --- | --- | --- |
+| <img src="image2/portrait/soft-pink-boudoir-fashion-proposal/example.png" alt="Soft Pink Boudoir Fashion Proposal" width="80"> | image2 | portrait | [Soft Pink Boudoir Fashion Proposal](image2/portrait/soft-pink-boudoir-fashion-proposal/) | image2, portrait, fashion, infographic, chinese |
 <!-- PROMPT_GALLERY_END -->
 
 ## Kontribusi
