@@ -45,7 +45,7 @@ license: MIT                           # OPTIONAL, defaults to MIT
 
 ### Valid Categories
 
-**Image2:** `portrait`, `product`, `poster`, `character`, `architecture`, `style`
+**Image2:** `portrait`, `product`, `poster`, `character`, `architecture`, `style`, `sticker`
 
 **Seedance 2:** `cinematic`, `product-video`, `camera-movement`, `character-motion`, `image-to-video`, `social-video`
 

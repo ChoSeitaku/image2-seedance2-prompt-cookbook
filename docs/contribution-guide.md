@@ -100,7 +100,7 @@ Before submitting a PR, please ensure:
 
 ## Category Reference
 
-**Image2 categories:** `portrait`, `product`, `poster`, `character`, `architecture`, `style`
+**Image2 categories:** `portrait`, `product`, `poster`, `character`, `architecture`, `style`, `sticker`
 
 **Seedance 2 categories:** `cinematic`, `product-video`, `camera-movement`, `character-motion`, `image-to-video`, `social-video`
 

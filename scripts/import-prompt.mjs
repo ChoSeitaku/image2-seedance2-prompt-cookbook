@@ -373,11 +373,9 @@ function importPrompt(mdPath) {
     en: sections['English Negative Prompt'] || '',
   };
 
-  // Merge parsed variables (only overwrite keys present in parsed)
-  for (const key of Object.keys(parsedVars)) {
-    if (template.variables[key] !== undefined) {
-      template.variables[key] = parsedVars[key];
-    }
+  // Use parsed variables from the markdown table (replaces template defaults)
+  if (Object.keys(parsedVars).length > 0) {
+    template.variables = parsedVars;
   }
 
   // Example cases

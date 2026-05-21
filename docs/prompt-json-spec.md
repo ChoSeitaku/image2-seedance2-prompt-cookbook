@@ -88,7 +88,7 @@ Standard Seedance 2 variables: `DURATION`, `SUBJECT`, `LOCATION`, `ACTION`, `MOO
 
 Category directory names must be lowercase with hyphens (kebab-case). They should match one of the predefined categories:
 
-**Image2:** `portrait`, `product`, `poster`, `character`, `architecture`, `style`
+**Image2:** `portrait`, `product`, `poster`, `character`, `architecture`, `style`, `sticker`
 
 **Seedance 2:** `cinematic`, `product-video`, `camera-movement`, `character-motion`, `image-to-video`, `social-video`
 

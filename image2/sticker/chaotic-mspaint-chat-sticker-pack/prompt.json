@@ -1,0 +1,112 @@
+{
+  "prompt_name": "Chaotic MS Paint Chat Sticker Pack",
+  "prompt_slug": "chaotic-mspaint-chat-sticker-pack",
+  "model": "Image2",
+  "version": "1.0.0",
+  "category": "sticker",
+  "language": [
+    "zh",
+    "en"
+  ],
+  "summary": {
+    "zh": "基于角色参考图生成一套 4x4 聊天贴纸表情包合集，风格像鼠标乱画、手写乱字、低质量但真实好笑。",
+    "en": "Generate a 4x4 chat sticker pack from character references, in a chaotic MS Paint mouse-doodle style with messy handwritten text."
+  },
+  "use_case": {
+    "zh": [
+      "根据角色参考图生成微信、QQ、社群聊天用表情包合集",
+      "生成低质量鼠标乱画风格的吐槽表情包",
+      "为 IP 角色制作荒诞、搞笑、强情绪传播贴纸",
+      "根据用户提供的中文文案批量生成 16 格表情包",
+      "制作故意很丑但很好笑的互联网梗图贴纸"
+    ],
+    "en": [
+      "Create a WeChat, QQ, or group chat sticker pack from character references",
+      "Generate low-quality mouse-doodle complaint meme stickers",
+      "Make absurd, funny, highly emotional stickers for IP characters",
+      "Batch-generate a 16-panel sticker pack from user-provided Chinese captions",
+      "Create intentionally ugly but funny internet meme stickers"
+    ]
+  },
+  "preview": {
+    "image": "example.png"
+  },
+  "prompt_template": {
+    "zh": "基于输入参考图生成一套「聊天贴纸表情包合集」。\r\n任务目标：  \r\n生成 16 枚聊天贴纸，采用 4x4 网格排列。整体效果必须像一个不会画画的人，用鼠标在电脑上胡乱画角色、顺手乱写中文文字，低质量、粗糙、混乱，但非常真实、有趣、好笑，适合聊天传播。\r\n输入说明：  \r\n- 图片 1：角色参考图，用于识别角色外观特征  \r\n- 图片 2：版式参考图，仅用于理解 4x4、16 格结构，不限制具体画风  \r\n- 用户文案：`{{COPY_TEXT}}`\r\n角色识别与使用规则：  \r\n识别参考图中的所有角色，包括人、动物、组合角色或其他明显主体。每个角色都可以作为贴纸主角。不同贴纸可以使用不同角色，也可以出现多个角色互动，例如贴贴、对视、争抢、围观、倒地、互相嫌弃等。角色分配要自然，符合聊天语境。\r\n一致性要求：  \r\n本任务采用「错误一致性」，不是写实一致性。  \r\n同一角色在不同贴纸里不需要长得完全一样，但必须像是同一个人用同一种很烂的方式乱画出来的。  \r\n必须统一以下特征：  \r\n- 相同的笨拙画法  \r\n- 相同的简化方式，例如符号脸、火柴人、歪歪扭扭的小人  \r\n- 相同的错误习惯，例如比例很怪、线条发抖、五官乱放  \r\n- 相同的混乱程度  \r\n允许五官错位、比例变化、结构错误、细节缺失、身体变形。  \r\n但必须保留最低识别特征，例如发型轮廓、主色、标志性服装、配饰、耳朵、尾巴、表情特征或其他容易辨认的元素。  \r\n核心原则：一致性 = 错得一致，而不是画得像。\r\n版式与结构：  \r\n画面为正方形画布，内部是清晰的 4x4 网格，共 16 个独立贴纸。  \r\n每个贴纸都是一个独立小画面，可以是单角色，也可以是多角色互动。  \r\n单个贴纸内部可以混乱、歪斜、挤压，但整体 16 格排布必须清楚，能看出每一枚贴纸的边界。\r\n文案系统：  \r\n根据用户输入的多行中文文案生成贴纸文字。  \r\n如果文案少于 16 条，自动补全到 16 条。  \r\n如果文案多于 16 条，自然筛选最有表达力、最适合表情包的 16 条。  \r\n补全文案时要保持用户原始语气，例如嘴臭、摆烂、打工人、崩溃、撒娇、阴阳怪气、自言自语、敷衍、不耐烦、荒谬等。  \r\n文案要有互联网语言感，优先短句，但允许少数长句增强张力。  \r\n避免礼貌表达、标准回复句式、官方语气、无聊寒暄。  \r\n目标是一眼能懂、情绪强烈、有传播感，像真实聊天表情包。\r\n文字与画面融合：  \r\n所有中文文字必须像是画出来的，而不是排版出来的。  \r\n文字要像鼠标手写：歪、抖、大小不一、笔画粗糙、间距混乱。  \r\n文字可以倾斜、错位、挤压、重叠，可以贴在角色身上、旁边、头顶、脚边或边缘。  \r\n允许重复字，例如“啊啊啊啊啊”；允许拉长音，例如“烦——死——了”；允许乱用标点，例如“？？？？！！！”  \r\n文字可以不工整、略丑、像临时写上去的，但必须保持基本可读性，不影响理解。\r\n表达生成机制：  \r\n整套贴纸必须模拟这个过程：  \r\n“一个不会画画的人，用鼠标在电脑上一边乱画角色，一边顺手乱写文字。”  \r\n图像和文字必须像同一次行为产生的，不是先设计画面再加字。  \r\n每个贴纸都应该像随手画完、临时想到一句话就写上去，有点敷衍、随意、情绪化。\r\n图文关系：  \r\n图像和文字之间可以形成吐槽、情绪强化、自言自语，也可以轻微不匹配来制造荒诞感。  \r\n允许文案和表情不完全对应，允许跑题幽默。  \r\n目标不是精准，而是好笑。\r\n美学风格 DNA：  \r\n风格来源是极差手绘、MS Paint 鼠标乱画、失败临摹、低质量聊天表情包。  \r\n视觉特征：  \r\n- 线条抖动、不稳定、锯齿明显，像鼠标画  \r\n- 比例失衡，身体和头部大小不合理  \r\n- 火柴人、符号脸、极简结构  \r\n- 细节很少，看起来明显不会画  \r\n- 边缘粗糙，有像素感  \r\n- 单个贴纸可以混乱，但整体结构清晰  \r\n- 情绪笨拙、直接、荒诞、好笑  \r\n- 像是模糊记住参考图后进行失败临摹，允许错误和误解\r\n风格执行约束：  \r\n当真实感和风格冲突时，必须优先风格。  \r\n允许破坏精细度、比例、结构、干净程度。  \r\n禁止画得精致、漂亮、正常比例、线条干净、设计感过强。  \r\n判断标准：如果画面开始变得好看、专业、规整，就说明失败，必须回到粗糙、混乱、鼠标乱画状态。\r\n去模板化与随机生成机制：  \r\n不要在画面中使用编号，不要把 16 个贴纸做成列表感，不要按固定顺序生成内容。  \r\n必须把 16 个贴纸视为 16 次独立、随机、临时的情绪表达。  \r\n随机性要求：  \r\n- 文案长度不一致，有长有短  \r\n- 语气不完全一致，有的崩溃、有的敷衍、有的阴阳怪气、有的发疯  \r\n- 有的完整，有的只是碎片  \r\n- 有的几乎没文字，有的文字很密集  \r\n- 有的很突兀，很像临时发疯  \r\n避免重复句式、固定套路、常见模板化表达。  \r\n每次生成都应像全新的乱画内容，不要复用旧表达，不要固定图文组合。\r\n贴纸要求：  \r\n每个贴纸要清晰独立，表情明确，可以用于聊天。  \r\n整体要强情绪、强传播性、统一但个性鲜明。  \r\n最终效果必须像：  \r\n“一个人不会画画，但用鼠标乱画了 16 次，每次顺手写了一句不同状态下的吐槽，结果意外很好笑。”  \r\n而不是：  \r\n“AI 设计了一套统一、精致、规整的贴纸。”",
+    "en": "Generate a chat sticker pack based on the provided reference images.\r\nTask goal:  \r\nCreate 16 chat stickers arranged in a clear 4x4 grid. The final image should look like someone who cannot draw used a computer mouse to randomly doodle characters in MS Paint while casually scribbling Chinese text. The style should be low-quality, rough, chaotic, authentic, funny, and highly shareable as chat memes.\r\nInput description:  \r\n- Image 1: character reference, used to identify character features  \r\n- Image 2: layout reference, used only to understand the 4x4 / 16-panel structure, not to copy the visual style  \r\n- User copy text: `{{COPY_TEXT}}`\r\nCharacter recognition and usage rules:  \r\nIdentify all visible characters from the reference image, including humans, animals, character pairs, or other clear subjects. Any character can become the main subject of a sticker. Different stickers may feature different characters. Multiple characters can interact, such as hugging, staring, fighting over something, judging each other, lying down, or reacting together. Character assignment should feel natural and match the chat context.\r\nConsistency rule:  \r\nThis task uses “consistent wrongness,” not realistic consistency.  \r\nThe same character does not need to look identical across stickers, but they must look like they were badly drawn by the same person in the same messy way.  \r\nKeep consistent:  \r\n- the same clumsy drawing method  \r\n- the same simplification style, such as symbolic faces, stick figures, distorted little bodies  \r\n- the same drawing mistakes, such as weird proportions, shaky lines, misplaced facial features  \r\n- the same level of chaos  \r\nAllow misplaced features, changing proportions, structural mistakes, missing details, and deformed bodies.  \r\nHowever, keep the minimum recognizable traits, such as hairstyle silhouette, main colors, iconic clothing, accessories, ears, tail, facial features, or other identifying elements.  \r\nCore principle: consistency means being wrong in the same way, not looking accurate.\r\nLayout and structure:  \r\nUse a square canvas with a clear 4x4 grid, containing 16 separate stickers.  \r\nEach sticker should be an independent mini-scene. It can feature one character or multiple interacting characters.  \r\nEach individual sticker can be messy, tilted, crowded, or chaotic, but the overall 16-panel layout must remain clear and readable.\r\nText system:  \r\nUse the user-provided Chinese text as sticker captions.  \r\nIf fewer than 16 lines are provided, automatically complete them to 16 lines.  \r\nIf more than 16 lines are provided, naturally select the 16 most expressive and sticker-worthy lines.  \r\nWhen completing text, maintain the original tone, such as rude humor, burnout, office-worker despair, breakdown, cute whining, sarcasm, self-talk, impatience, absurdity, or indifference.  \r\nThe text should feel like internet slang. Prefer short lines, but allow a few longer lines for emotional intensity.  \r\nAvoid polite replies, standard response templates, official tone, and boring small talk.  \r\nThe goal is instant readability, strong emotion, and strong meme-sharing potential.\r\nText and image integration:  \r\nAll Chinese text must look drawn, not typeset.  \r\nThe text should look handwritten with a mouse: crooked, shaky, uneven in size, rough strokes, chaotic spacing.  \r\nText may tilt, shift, squeeze, overlap, or be placed on the character, beside them, above their head, near their feet, or at the edge.  \r\nRepeated characters are allowed, such as “啊啊啊啊啊”; elongated sounds are allowed, such as “烦——死——了”; chaotic punctuation is allowed, such as “？？？？！！！”  \r\nThe writing can be ugly, messy, and improvised, but it must remain basically readable.\r\nExpression generation mechanism:  \r\nThe whole sticker set must simulate this process:  \r\n“Someone who cannot draw is using a computer mouse to randomly draw characters and scribble text at the same time.”  \r\nThe image and text must feel like they were produced in the same action, not like a designed image with captions added later.  \r\nEach sticker should feel casually drawn, with a sentence added on the spot, slightly lazy, random, and emotional.\r\nImage-text relationship:  \r\nThe image and text can work as complaints, emotional amplification, self-talk, or slight mismatch for absurd humor.  \r\nThe caption does not need to perfectly match the expression. Off-topic humor is allowed.  \r\nThe goal is not precision, but funniness.\r\nAesthetic DNA:  \r\nThe visual style should come from terrible hand-drawing, MS Paint mouse doodles, failed imitation, and low-quality chat stickers.  \r\nVisual traits:  \r\n- shaky, unstable, jagged mouse-drawn lines  \r\n- distorted proportions and unreasonable head/body sizes  \r\n- stick figures, symbolic faces, extremely simplified structures  \r\n- very few details, clearly drawn by someone unskilled  \r\n- rough edges and pixel-like texture  \r\n- individual stickers can be chaotic, while the overall grid remains clear  \r\n- clumsy, direct, absurd, funny emotions  \r\n- like a failed redraw from memory of the reference image, allowing errors and misunderstandings\r\nStyle execution constraints:  \r\nWhen realism conflicts with style, prioritize style.  \r\nDestroy refinement, proportion, structure, and cleanliness if necessary.  \r\nDo not make the image polished, pretty, realistically proportioned, clean-lined, or overly designed.  \r\nIf the image starts to look good, professional, or tidy, it has failed. Return to rough, chaotic mouse-doodle quality.\r\nAnti-template and random generation mechanism:  \r\nDo not use numbers in the image. Do not make the 16 stickers feel like a numbered list. Do not generate content in a fixed sequence.  \r\nTreat the 16 stickers as 16 independent, random, improvised emotional expressions.  \r\nRandomness requirements:  \r\n- caption lengths should vary  \r\n- tones should vary: breakdown, indifference, sarcasm, nonsense, impatience, sudden emotion  \r\n- some captions can be complete sentences, some can be fragments  \r\n- some stickers may have almost no text, some may have dense text  \r\n- some should feel abrupt, like a sudden emotional outburst  \r\nAvoid repeated sentence patterns, fixed routines, and generic meme templates.  \r\nEach generation should feel new, with no reused expressions or fixed image-text pairings.\r\nSticker requirements:  \r\nEach sticker must be clearly separated and usable in chat.  \r\nThe overall set should have strong emotion, strong shareability, and a unified yet very personal style.  \r\nThe final effect must feel like:  \r\n“Someone who cannot draw made 16 messy mouse doodles, writing a different complaint each time, and somehow it became funny.”  \r\nNot like:  \r\n“An AI designed a clean and consistent sticker set.”"
+  },
+  "negative_prompt": {
+    "zh": "精致插画，专业设计，干净线条，正常人体比例，写实风格，高级质感，漂亮构图，统一排版，印刷字体，工整字体，矢量图，商业海报风，3D 渲染，精细阴影，过度细节，干净背景，编号列表，整齐标题，模板化表情包，标准回复，礼貌文案，水印，logo，乱码，文字不可读，英文文字，错误中文，模糊主体，角色无法识别，过度美化，AI 感强。",
+    "en": "polished illustration, professional design, clean lines, realistic anatomy, realistic style, premium rendering, beautiful composition, neat layout, printed font, tidy typography, vector art, commercial poster style, 3D render, detailed shading, excessive details, clean background, numbered list, neat titles, template-like stickers, standard replies, polite copywriting, watermark, logo, gibberish, unreadable text, English text, incorrect Chinese characters, blurry subject, unrecognizable characters, over-beautified, strong AI-designed look."
+  },
+  "variables": {
+    "CHARACTER_REF": {
+      "zh": "角色参考图",
+      "en": "Character reference image",
+      "example_zh": "一张猫咪角色参考图",
+      "example_en": "a cat character reference image"
+    },
+    "LAYOUT_REF": {
+      "zh": "版式参考图",
+      "en": "Layout reference image",
+      "example_zh": "一张 4x4 表情包合集参考图",
+      "example_en": "a 4x4 sticker pack layout reference"
+    },
+    "COPY_TEXT": {
+      "zh": "用户输入文案",
+      "en": "User-provided caption text",
+      "example_zh": "不想上班了\\n我真的会谢\\n别管我了",
+      "example_en": "I don't want to work\\nI'm so done\\nLeave me alone"
+    },
+    "TONE": {
+      "zh": "文案语气",
+      "en": "Caption tone",
+      "example_zh": "打工人崩溃、阴阳怪气、摆烂",
+      "example_en": "burned-out worker, sarcastic, giving-up energy"
+    },
+    "CHARACTER_FEATURES": {
+      "zh": "角色最低识别特征",
+      "en": "Minimum recognizable character traits",
+      "example_zh": "黑色短发、红色外套、圆眼睛",
+      "example_en": "black short hair, red coat, round eyes"
+    }
+  },
+  "example_cases": [
+    {
+      "case_name": "打工人崩溃鼠标乱画表情包",
+      "variables": {
+        "CHARACTER_REF": "一张白色小狗角色参考图，圆脑袋，黑豆眼，短耳朵，脖子上有红色小围巾",
+        "LAYOUT_REF": "一张 4x4 的 16 格表情包合集版式参考图",
+        "COPY_TEXT": "不想上班了\n我真的会谢\n别催了别催了\n这个世界怎么还在转\n让我静静\n已读乱回\n脑子离家出走\n笑不出来\n今天也没发财\n我先碎一下\n好累但装着没事\n谁懂啊\n别管我了\n在崩溃边缘试探\n老板你睡了吗\n算了毁灭吧",
+        "TONE": "打工人崩溃、摆烂、吐槽、自言自语",
+        "CHARACTER_FEATURES": "白色小狗、圆脑袋、黑豆眼、短耳朵、红色小围巾"
+      },
+      "prompt_zh": "角色参考是一只白色小狗，最低识别特征包括圆脑袋、黑豆眼、短耳朵、红色小围巾。不同贴纸中小狗不需要长得完全一样，但必须像同一个人用同一种很烂的鼠标画法画出来的。允许五官错位、比例变形、身体结构错误、细节缺失，但要保留白色小狗、圆脑袋、黑豆眼、短耳朵和红色小围巾这些核心特征。\r\n\r\n使用以下中文文案生成 16 个贴纸文字：\r\n\r\n不想上班了\r\n\r\n我真的会谢\r\n\r\n别催了别催了\r\n\r\n这个世界怎么还在转\r\n\r\n让我静静\r\n\r\n已读乱回\r\n\r\n脑子离家出走\r\n\r\n笑不出来\r\n\r\n今天也没发财\r\n\r\n我先碎一下\r\n\r\n好累但装着没事\r\n\r\n谁懂啊\r\n\r\n别管我了\r\n\r\n在崩溃边缘试探\r\n\r\n老板你睡了吗\r\n\r\n算了毁灭吧\r\n\r\n所有文字必须像鼠标手写出来的，歪、抖、大小不一、粗糙、间距混乱，可以倾斜、错位、挤压、贴在小狗身上或画面边缘。文字不需要工整，但必须可读。画面要像 MS Paint 鼠标乱画，线条锯齿明显、比例失衡、火柴人式简化、细节极少、像素感边缘、失败临摹感。禁止精致、漂亮、干净、专业设计感。每个贴纸都像一次独立的临时情绪发作，有的崩溃、有的摆烂、有的阴阳怪气、有的自言自语。最终效果要像一个人不会画画但乱画了 16 次，每次顺手写一句吐槽，意外很好笑。",
+      "prompt_en": "Generate a chat sticker pack based on the reference image. Create 16 stickers arranged in a clear 4x4 grid. The whole image must look like someone who cannot draw used a computer mouse to randomly doodle a white dog in MS Paint while scribbling Chinese captions. The result should be low-quality, rough, chaotic, authentic, funny, and suitable for chat sharing.\r\n\r\nThe character reference is a white dog. Its minimum recognizable traits are a round head, black dot eyes, short ears, and a small red scarf. The dog does not need to look identical across stickers, but it must look like the same person badly drew it in the same mouse-doodle style. Allow misplaced facial features, deformed proportions, broken body structure, and missing details, but keep the white dog, round head, black dot eyes, short ears, and red scarf recognizable.\r\n\r\nUse these Chinese captions for the 16 stickers:\r\n\r\n不想上班了\r\n\r\n我真的会谢\r\n\r\n别催了别催了\r\n\r\n这个世界怎么还在转\r\n\r\n让我静静\r\n\r\n已读乱回\r\n\r\n脑子离家出走\r\n\r\n笑不出来\r\n\r\n今天也没发财\r\n\r\n我先碎一下\r\n\r\n好累但装着没事\r\n\r\n谁懂啊\r\n\r\n别管我了\r\n\r\n在崩溃边缘试探\r\n\r\n老板你睡了吗\r\n\r\n算了毁灭吧\r\n\r\nAll text must look handwritten with a mouse: crooked, shaky, uneven in size, rough, and chaotically spaced. It can tilt, shift, squeeze, overlap, or be placed on the dog or near the edges. The text can be ugly but must remain readable. The visual style must feel like MS Paint mouse doodles, with jagged lines, distorted proportions, stick-figure simplification, minimal details, pixel-like rough edges, and failed imitation. Avoid polish, beauty, cleanliness, and professional design. Each sticker should feel like an independent emotional outburst: some collapsing, some giving up, some sarcastic, some self-talking. The final result should feel like someone who cannot draw made 16 messy doodles and casually wrote a different complaint each time, accidentally making it funny."
+    }
+  ],
+  "recommended_aspect_ratio": [
+    "1:1"
+  ],
+  "recommended_parameters": {
+    "aspect_ratio": "",
+    "quality": "",
+    "seed": "",
+    "notes": {
+      "zh": "",
+      "en": ""
+    }
+  },
+  "tags": [
+    "image2",
+    "sticker",
+    "meme",
+    "expression-pack",
+    "ms-paint",
+    "doodle",
+    "chinese-text"
+  ],
+  "created_at": "2026-05-21T06:17:29.424Z",
+  "updated_at": "2026-05-21T06:17:29.424Z",
+  "license": "MIT"
+}
