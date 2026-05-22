@@ -1,0 +1,158 @@
+{
+  "prompt_name": "Chibi Anime Chat Sticker Grid",
+  "prompt_slug": "chibi-anime-chat-sticker-grid",
+  "model": "Image2",
+  "version": "1.0.0",
+  "category": "sticker",
+  "language": [
+    "zh",
+    "en"
+  ],
+  "summary": {
+    "zh": "生成一套4x4 Q版二次元聊天表情包贴纸合集，强调夸张表情、粗描边、手写中文字幕、白色背景和统一可爱贴纸风格。",
+    "en": "Generate a 4x4 chibi anime chat sticker sheet with exaggerated expressions, bold outlines, handwritten Chinese captions, white backgrounds, and a unified cute sticker style."
+  },
+  "use_case": {
+    "zh": [
+      "根据角色参考图生成 16 格聊天表情包合集",
+      "为人物、宠物、OC、虚拟角色或 IP 形象制作 Q版表情包",
+      "生成疑惑、委屈、拒绝、撒娇、惊讶、开心、崩溃、摆烂等聊天反应贴纸",
+      "测试不同中文短句在表情包中的视觉效果",
+      "制作统一画风的社交媒体反应图和聊天贴纸包",
+      "为角色资产扩展多情绪表情包合集"
+    ],
+    "en": [
+      "Generate a 16-panel chat sticker sheet from character references",
+      "Create chibi meme stickers for people, pets, OCs, virtual characters, or IP-style mascots",
+      "Produce reaction stickers such as confused, wronged, refusing, cute, surprised, happy, collapsing, or giving up",
+      "Test how different Chinese captions work visually in meme stickers",
+      "Create consistent-style social media reaction images and chat sticker packs",
+      "Expand character assets into a multi-emotion sticker collection"
+    ]
+  },
+  "preview": {
+    "image": "example.png"
+  },
+  "prompt_template": {
+    "zh": "基于参考图生成一套“聊天贴纸表情包合集”。\n\n输入包含：\n\n- 图片 1：角色参考图，用于识别角色外观、最低识别特征、颜色、发型、标志物、宠物特征或组合关系。\n\n- 图片 2：版式参考图，仅用于理解 16 格结构，不限制具体风格。\n\n- 用户文案：{{CAPTIONS}}\n\n最终生成一张方形画布，共 16 个贴纸，采用 4x4 排列。每个贴纸都是独立画面，可为单角色或多角色互动。整体排布必须清晰，四乘四结构明确，每格之间有明确视觉分隔，适合作为聊天表情包合集使用。\n\n整体风格为 Q版二次元表情包贴纸插画。每个贴纸采用近距离头像或半身特写构图，角色脸部或上半身占据画面主要部分，整体略带夸张裁切感，适合用作聊天表情包、社交媒体反应图或贴纸包。\n\n请先从角色参考图中识别所有角色，包括人物、动物、宠物、拟人化物体或组合角色。所有角色都可以作为贴纸主角。不同贴纸可以使用不同角色，也可以出现多角色互动，例如贴贴、争抢、对视、逃跑、害羞、震惊、撒娇、生气、哭哭、开心、装傻、比心、拒绝、瘫倒、抱住、互相嫌弃等。角色分配应自然，符合聊天语境。\n\n角色造型统一为可爱 Q版比例，大头小身，圆润脸型，五官简化但情绪明确。角色应保留参考图中的最低识别特征，例如发型轮廓、主要颜色、标志性配饰、衣服大色块、动物耳朵、尾巴、花纹、特殊道具或角色组合关系。允许根据 Q版贴纸风格进行简化、萌化和夸张，但不要丢失角色辨识度。\n\n整套贴纸需要保持统一画风。统一使用粗黑或深色手绘描边，线条圆润、有弹性、干净清晰。整体具有手绘涂鸦感、Q版动漫感和贴纸感。画面采用扁平色块、柔和渐变、高饱和但柔和的配色。不要写实，不要复杂渲染，不要厚重光影，重点突出表情、动作和情绪。\n\n每个贴纸都需要有明确且夸张的聊天反应情绪。表情需要直接、易懂、有传播感，适合聊天场景。可以包含困倦、崩溃、无语、惊讶、开心、喜欢、撒娇、拒绝、生气、委屈、得意、逃跑、发疯、卖萌、嘴硬、不耐烦、尴尬、期待、开饭、摆烂等状态。表情可以通过大眼睛、星星眼、泪眼、豆豆眼、闭眼怒吼、鼓脸、脸红、张嘴震惊、流汗、咬牙、笑哭等方式表现。\n\n可以加入漫画式情绪符号来强化表情，例如问号、爱心、怒气符号、眼泪、汗滴、感叹号、闪光、简化气泡、晕圈、速度线、小花、小星星等。情绪符号应简洁可爱，不要抢占主体。\n\n文案系统：\n\n用户会输入多行中文文案。若文案少于 16 条，则自动补全到 16 条，补全内容需保持原有语气风格一致；若文案多于 16 条，则自然筛选最有表达力、最适合表情包传播的 16 条。文案应具备强情绪、强口语感、强互联网语境，优先吐槽、自言自语、摆烂、崩溃、嘴硬、发疯、撒娇、不耐烦、荒诞表达，避免礼貌回复、正式语气和标准客服式表达。\n\n严禁在贴纸画面中使用编号、序号、列表式表达或顺序化编排。不要让 16 个贴纸看起来像机械排列的步骤说明。必须把 16 个贴纸视为 16 次独立、随机、临时的聊天表达。每一格都像是一个单独可发送的表情包，而不是连续剧情分镜。\n\n16 个贴纸的文案与表情需要有变化。文案长度不必一致，有的可以很短，有的可以略长，有的像碎碎念，有的像突然情绪爆发。不要让每格句式太相似，不要模板化重复。整体需要有随机感、聊天感和情绪波动，但画风仍保持统一、干净、可爱。\n\n文字必须是手写涂鸦风中文短句，而不是正式排版字体。文字使用粗黑笔画，外侧可带白色描边，具有漫画字幕、聊天表情包文字或拟声字的感觉。字形可以略微不规则、夸张、俏皮、有手写感，但必须尽量清晰可读。文字可以位于画面顶部、底部、角色旁边、气泡中、边缘处或与角色动作结合，但不要遮挡主要表情。文字应与角色表情和情绪一致，起到强化反应的作用。\n\n每个贴纸背景为纯白色或接近纯白色，不加入复杂场景。可以保留少量简化情绪符号、气泡、速度线或小装饰，但背景不能抢占主体。整体画面应简洁、明亮、可爱、干净，具有 Q版动漫、萌系头像、表情包贴纸、手绘涂鸦数字插画风格。\n\n整体要求：\n\n生成一张方形 4x4 贴纸合集，共 16 枚独立聊天贴纸。每枚贴纸都应有清晰主体、夸张表情、可读中文手写字幕、白色背景和统一 Q版二次元贴纸风格。最终效果应像一套可以直接用于聊天软件的可爱表情包合集，而不是单张插画、海报或连续漫画。\n\n推荐将以下中文文案自然分配到 16 枚贴纸中：\n\n{{CAPTIONS}}",
+    "en": "Generate a “chat sticker meme sheet” based on the reference images.\n\nInputs:\n\n- Image 1: character reference, used to identify character appearance, minimum recognizable traits, colors, hairstyle, iconic accessories, pet features, or character relationships.\n\n- Image 2: layout reference, used only to understand the 16-panel structure, not to copy the visual style.\n\n- User captions: {{CAPTIONS}}\n\nCreate one square canvas with 16 stickers arranged in a clear 4x4 grid. Each sticker is an independent image and may feature a single character or multiple characters interacting. The overall layout must be clear, with visible separation between all cells, suitable for a chat sticker pack.\n\nThe overall visual style is chibi anime meme sticker illustration. Each sticker should use a close-up avatar or half-body composition, with the character’s face or upper body occupying the main area. The framing may feel slightly exaggerated and tightly cropped, suitable for chat reaction stickers, social media reaction images, or sticker packs.\n\nFirst identify all characters from the character reference image, including humans, animals, pets, anthropomorphic objects, or character groups. Any character may become the main subject of a sticker. Different stickers may use different characters. Multi-character interactions are allowed, such as cuddling, fighting over something, staring at each other, running away, blushing, shocked reactions, acting cute, getting angry, crying, smiling, pretending to be silly, making a heart gesture, refusing, collapsing, hugging, or judging each other. Character assignment should feel natural and suitable for chat contexts.\n\nCharacter design should use cute chibi proportions: big head, small body, rounded face, simplified facial features, and clearly readable emotions. Preserve the minimum recognizable traits from the reference image, such as hairstyle silhouette, main colors, iconic accessories, large clothing color blocks, animal ears, tail, markings, special props, or character relationships. Simplification, cutification, and exaggeration are allowed, but the character must remain recognizable.\n\nKeep a unified visual style across the whole sheet. Use thick black or dark hand-drawn outlines with rounded, elastic, clean linework. The overall image should feel hand-drawn, playful, chibi anime, and sticker-like. Use flat color blocks, soft gradients, and saturated yet soft colors. Avoid realism, complex rendering, heavy lighting, or painterly texture. Focus on expression, action, and emotion.\n\nEach sticker needs a clear and exaggerated chat reaction emotion. The expression should be direct, easy to understand, and shareable. Possible emotions include sleepy, collapsing, speechless, shocked, happy, affectionate, cute, refusing, angry, wronged, proud, escaping, chaotic, playful, stubborn, annoyed, embarrassed, excited, hungry, or giving up. Expressions may include big eyes, starry eyes, teary eyes, dot eyes, closed-eye yelling, puffed cheeks, blushing, shocked open mouth, sweating, gritting teeth, or laughing with tears.\n\nAdd simple manga-style emotion symbols when helpful, such as question marks, hearts, anger marks, tears, sweat drops, exclamation marks, sparkles, simple speech bubbles, dizzy circles, speed lines, small flowers, or stars. These symbols should be cute and simple, and should not overpower the character.\n\nCaption handling:\n\nUse the user-provided multi-line Chinese captions as the text source. If there are fewer than 16 captions, automatically complete the set to 16 while keeping the same tone. If there are more than 16 captions, naturally select the 16 most expressive and meme-worthy ones. Captions should feel emotional, conversational, and internet-native, leaning toward sarcasm, self-talk, exhaustion, collapse, stubbornness, chaos, cuteness, annoyance, absurdity, or playful complaining. Avoid polite, formal, or customer-service-like phrasing.\n\nDo not use numbers, serial labels, list formatting, or step-like ordering inside the sticker artwork. The 16 stickers should not look like a numbered sequence or instruction sheet. Treat the 16 stickers as 16 independent, random, temporary chat reactions. Each cell should work as a standalone sticker, not as a continuous comic.\n\nThe captions and expressions should vary across the 16 stickers. Caption length does not need to be consistent: some may be very short, some slightly longer, some fragmented, and some emotionally explosive. Avoid repetitive sentence patterns or template-like compositions. The whole sheet should feel spontaneous and varied, while still keeping a unified, clean, cute chibi anime sticker style.\n\nThe Chinese text must be handwritten doodle-style, not formal typography. Use thick black strokes, optionally with a white outer outline, resembling manga captions, chat sticker lettering, or sound-effect text. The lettering may be slightly irregular, exaggerated, playful, and hand-drawn, but should remain as readable as possible. Text may be placed at the top, bottom, beside the character, inside a speech bubble, near the edge, or integrated with the character’s pose, but it should not cover the main facial expression. The caption should match and enhance the character’s reaction.\n\nUse a pure white or nearly pure white background for each sticker. Do not add complex environments. A few simple emotion symbols, bubbles, speed lines, or small decorations are allowed, but the background must not distract from the subject. The overall image should be simple, bright, cute, clean, and clearly in the style of chibi anime reaction stickers, kawaii avatars, meme stickers, and hand-drawn digital doodle illustrations.\n\nFinal output:\n\nOne square 4x4 sticker sheet with 16 independent chat stickers. Each sticker should have a clear subject, exaggerated expression, readable handwritten Chinese caption, white background, and unified chibi anime sticker style. The result should look like a cute sticker pack ready for chat apps, not a single poster, realistic illustration, or continuous comic.\n\nNaturally distribute these Chinese captions across the 16 stickers:\n\n{{CAPTIONS}}"
+  },
+  "negative_prompt": {
+    "zh": "写实照片，真实人物质感，复杂背景，场景过重，阴暗氛围，恐怖表情，暴力血腥，成人内容，过度写实皮肤纹理，3D写实渲染，厚重油画质感，强烈金属质感，低清晰度，模糊，噪点，过度锐化，过度细节，脏污色彩，杂乱构图，严重比例错误，畸形五官，多余眼睛，多余嘴巴，多余肢体，错误手指，表情不明确，文字乱码，文字不可读，过多文字，水印，签名，logo，版权角色标识，复杂道具，背景抢占主体，单张海报，连续漫画分镜，编号，序号，列表结构，过度统一模板，所有格子构图完全相同，文字过小，文字遮挡脸部，商业海报排版，写实背景，厚涂风格，油画风格，低质量截图感",
+    "en": "photorealistic, realistic human texture, complex background, overly detailed scene, dark atmosphere, horror expression, violence, blood, adult content, overly realistic skin texture, realistic 3D rendering, heavy oil painting texture, strong metallic texture, low quality, blurry, noise, over-sharpened, excessive details, dirty colors, messy composition, severely wrong proportions, deformed facial features, extra eyes, extra mouth, extra limbs, wrong fingers, unclear expression, garbled text, unreadable text, too much text, watermark, signature, logo, copyrighted character mark, overly complex props, background overpowering the subject, single poster, continuous comic panels, numbers, serial labels, list structure, overly identical template, identical composition in every cell, text too small, text covering the face, commercial poster layout, realistic background, painterly style, oil painting style, low-quality screenshot look"
+  },
+  "variables": {
+    "CAPTIONS": {
+      "zh": "多行中文文案",
+      "en": "Multi-line Chinese captions",
+      "example_zh": "醒了但不想起；与世隔绝；累成狗了",
+      "example_en": "woke up but refuse to get up; isolated from the world; tired like a dog"
+    },
+    "CHARACTER_SOURCE": {
+      "zh": "角色来源说明",
+      "en": "Character source description",
+      "example_zh": "使用图片 1 中识别到的所有角色",
+      "example_en": "use all characters identified from image 1"
+    },
+    "LAYOUT_SOURCE": {
+      "zh": "版式来源说明",
+      "en": "Layout source description",
+      "example_zh": "参考图片 2 的 4x4 结构",
+      "example_en": "follow the 4x4 structure from image 2"
+    },
+    "GRID_COUNT": {
+      "zh": "贴纸数量",
+      "en": "Sticker count",
+      "example_zh": "16 枚，4x4 排列",
+      "example_en": "16 stickers in a 4x4 grid"
+    },
+    "STYLE_DNA": {
+      "zh": "风格 DNA",
+      "en": "Style DNA",
+      "example_zh": "Q版二次元、粗描边、白底、手写字幕、表情包贴纸感",
+      "example_en": "chibi anime, bold outlines, white background, handwritten captions, sticker-like meme style"
+    },
+    "TEXT_STYLE": {
+      "zh": "文字风格",
+      "en": "Text style",
+      "example_zh": "手写涂鸦风中文，粗黑笔画，可带白描边，清晰可读",
+      "example_en": "handwritten doodle-style Chinese, thick black strokes, optional white outline, readable"
+    },
+    "EMOTION_RANGE": {
+      "zh": "情绪范围",
+      "en": "Emotion range",
+      "example_zh": "困、累、饿、惊讶、喜欢、拒绝、崩溃、开心",
+      "example_en": "sleepy, tired, hungry, surprised, affectionate, refusing, collapsing, happy"
+    }
+  },
+  "example_cases": [
+    {
+      "case_name": "Q版猫耳少女聊天表情包合集 / Chibi Cat-Ear Girl Chat Sticker Pack",
+      "variables": {
+        "CAPTIONS": "醒了但不想起\n与世隔绝\n累成猫饼了\n放饭啦！！！\n刷着刷着 又是凌晨...\n再见我去发疯了\n吃饱了才有力气减肥\n好喜欢你呀\n你说的都对 但我不听\n再烦我 我就 我就 绝交！\n听懂掌声\n卧槽！！\n我太难了\n溜了溜了 886\n今天也要开心鸭！！\n再 bb 我咬你",
+        "CHARACTER_SOURCE": "一个原创Q版猫耳少女角色",
+        "LAYOUT_SOURCE": "4x4 方形贴纸合集结构",
+        "GRID_COUNT": "16 枚，4x4 排列",
+        "STYLE_DNA": "Q版二次元、猫耳少女、近景头像或半身特写、粗黑描边、扁平色块、柔和高饱和配色、白色背景、手写中文字幕、聊天表情包贴纸感",
+        "TEXT_STYLE": "手写涂鸦风中文，粗黑笔画，白色描边，略微不规则但清晰可读",
+        "EMOTION_RANGE": "困倦、摆烂、崩溃、惊讶、开心、喜欢、拒绝、生气、逃跑、撒娇"
+      },
+      "prompt_zh": "生成一套 Q版二次元聊天贴纸表情包合集，主体是一个原创 Q版猫耳少女角色。角色拥有圆圆的脸、大大的眼睛、柔软短发、猫耳、猫尾巴和简洁可爱的日常服装。角色整体为大头小身的可爱 Q版比例，五官简化但表情非常明确。\n最终生成一张方形画布，共 16 枚贴纸，采用 4x4 排列。每一格都是独立聊天表情包，可以是近景头像，也可以是半身特写。整体排布清晰，每个贴纸之间有明确分隔，适合作为聊天软件表情包合集使用。\n整套贴纸采用统一的 Q版二次元风格。使用粗黑或深色手绘描边，线条圆润、有弹性、干净清晰。画面采用扁平色块、柔和渐变、高饱和但柔和的配色。背景为纯白色或接近纯白色，不加入复杂场景。整体明亮、可爱、干净，具有萌系头像、聊天表情包和社交媒体贴纸感。\n将以下中文文案自然分配到 16 枚贴纸中：醒了但不想起、与世隔绝、累成猫饼了、放饭啦！！！、刷着刷着 又是凌晨...、再见我去发疯了、吃饱了才有力气减肥、好喜欢你呀、你说的都对 但我不听、再烦我 我就 我就 绝交！、听懂掌声、卧槽！！、我太难了、溜了溜了 886、今天也要开心鸭！！、再 bb 我咬你。\n每个贴纸需要呈现不同的聊天反应情绪。例如困到睁不开眼、缩进小被子里与世隔绝、瘫成猫饼、双眼发光准备吃饭、熬夜刷手机、抓狂发疯、吃饱满足、脸红比心、闭眼嘴硬拒绝、炸毛生气、鼓掌起哄、震惊张嘴、泪眼委屈、挥手逃跑、元气开心、露出小虎牙威胁咬人等。\n中文文字使用手写涂鸦风，粗黑笔画，外侧带白色描边，像漫画字幕或聊天贴纸文字。字形可以略微不规则、夸张、俏皮，但必须清晰可读。文字可以放在画面顶部、底部、角色旁边、气泡中或边缘处，不要遮挡主要表情。可以加入问号、爱心、怒气符号、眼泪、汗滴、感叹号、闪光、速度线、小鱼干、小爪印等简洁可爱的漫画情绪符号。\n不要使用编号、序号、列表式画面或顺序化编排。把 16 个贴纸视为 16 次独立、随机、临时的聊天表达。每格都应该是单独可发送的表情包，而不是连续漫画。避免每格构图完全相同，避免模板化重复。最终效果应是一套统一、干净、可爱、明亮的 Q版二次元猫耳少女聊天表情包合集。",
+      "prompt_en": "Generate a chibi anime chat sticker sheet featuring an original chibi cat-ear girl character. The character has a rounded face, large eyes, soft short hair, cat ears, a cat tail, and a simple cute casual outfit. Use cute chibi proportions with a big head and small body, simplified facial features, and clearly readable emotions.\nCreate one square canvas with 16 stickers arranged in a clear 4x4 grid. Each cell is an independent chat sticker and may use a close-up avatar or half-body composition. The overall layout should be clean and clearly separated, suitable for a chat sticker pack.\nThe whole sticker sheet should use a unified chibi anime style. Use thick black or dark hand-drawn outlines with rounded, elastic, clean linework. Use flat color blocks, soft gradients, and saturated yet soft colors. Use a pure white or nearly white background without complex scenery. The overall result should feel bright, cute, clean, kawaii, and sticker-like.\nNaturally distribute these Chinese captions across the 16 stickers: 醒了但不想起, 与世隔绝, 累成猫饼了, 放饭啦！！！, 刷着刷着 又是凌晨..., 再见我去发疯了, 吃饱了才有力气减肥, 好喜欢你呀, 你说的都对 但我不听, 再烦我 我就 我就 绝交！, 听懂掌声, 卧槽！！, 我太难了, 溜了溜了 886, 今天也要开心鸭！！, 再 bb 我咬你.\nEach sticker should show a different chat reaction emotion, such as being too sleepy to open her eyes, hiding under a small blanket, lying flat like a cat pancake, sparkling eyes before eating, staying up late scrolling the phone, going crazy, feeling satisfied after eating, blushing and making a heart gesture, stubbornly refusing with closed eyes, getting angry with puffed cheeks, clapping and cheering, shocked open mouth, teary wronged face, waving goodbye and running away, energetic happiness, or showing tiny fangs as a playful threat.\nThe Chinese text should be handwritten doodle-style, with thick black strokes and a white outer outline, like manga captions or chat sticker lettering. The text may be slightly irregular, exaggerated, and playful, but must remain readable. It may be placed at the top, bottom, beside the character, inside a speech bubble, or near the edge, but should not cover the main facial expression. Add simple cute manga emotion symbols such as question marks, hearts, anger marks, tears, sweat drops, exclamation marks, sparkles, speed lines, tiny fish, or paw prints when helpful.\nDo not use numbering, serial labels, list-like visuals, or step-by-step ordering. Treat the 16 stickers as 16 independent, random, temporary chat reactions. Each cell should work as a standalone sticker, not as a continuous comic. Avoid identical compositions in every cell and avoid template-like repetition. The final result should be a unified, clean, cute, bright chibi anime cat-ear girl chat sticker sheet."
+    },
+    {
+      "case_name": "Q版双角色日常吐槽表情包合集 / Chibi Duo Daily Reaction Sticker Pack",
+      "variables": {
+        "CAPTIONS": "真的假的\n我先躺一下\n别催了别催了\n懂了 但不改\n今天也很努力地摆烂\n救命啊！！\n偷偷开心\n你最好是\n不想说话\n让我康康\n问题不大\n已经裂开了\n我有点慌\n就这？\n抱抱我\n下次一定",
+        "CHARACTER_SOURCE": "两个原创Q版二次元角色，一个活泼元气，一个冷静吐槽",
+        "LAYOUT_SOURCE": "4x4 方形贴纸合集结构",
+        "GRID_COUNT": "16 枚，4x4 排列",
+        "STYLE_DNA": "Q版二次元、双角色互动、近景头像或半身特写、粗黑描边、白色背景、手写中文字幕、可爱聊天贴纸感",
+        "TEXT_STYLE": "手写涂鸦风中文，粗黑笔画，白色外描边，清晰可读",
+        "EMOTION_RANGE": "震惊、躺平、催促、嘴硬、摆烂、求救、开心、怀疑、沉默、好奇、安慰、崩溃、慌张、嫌弃、拥抱、拖延"
+      },
+      "prompt_zh": "生成一套 Q版二次元双角色聊天贴纸表情包合集。主体是两个原创 Q版二次元角色：一个活泼元气，表情丰富，动作夸张；另一个冷静吐槽，眼神淡定，经常表现出无语和嫌弃。两个角色可以单独出现，也可以在部分贴纸中互动。\n最终生成一张方形画布，共 16 枚贴纸，4x4 排列。每个贴纸都是独立画面，可以是单角色头像、半身特写，也可以是双角色互动。整体排布必须清晰，每格之间有明确分隔，适合作为聊天表情包合集。\n角色统一为可爱 Q版比例，大头小身，圆润脸型，简化五官，表情清晰。活泼角色可以有明亮发色、星星眼、夸张动作和元气服装；冷静角色可以有柔和深色发色、半睁眼、淡定表情和简洁服装。两者需要保留稳定的识别特征，但允许根据不同表情进行夸张和萌化。\n整套贴纸采用 Q版二次元表情包风格。画面为近景头像或半身特写，角色脸部和表情占据主要视觉区域。使用粗黑或深色手绘描边，线条圆润、有弹性、干净清晰。采用扁平色块、柔和渐变、柔和高饱和配色。每格背景为纯白色或接近纯白色，不加入复杂场景。\n将以下中文文案自然分配到 16 枚贴纸中：真的假的、我先躺一下、别催了别催了、懂了 但不改、今天也很努力地摆烂、救命啊！！、偷偷开心、你最好是、不想说话、让我康康、问题不大、已经裂开了、我有点慌、就这？、抱抱我、下次一定。\n每格需要呈现不同的情绪和动作。例如双眼震惊放大、整个人瘫倒、被催促时抱头、闭眼嘴硬、举牌摆烂、双手求救、捂嘴偷笑、斜眼怀疑、缩成一团沉默、探头观察、强装镇定、灵魂裂开、冒汗慌张、冷脸嫌弃、张开手要抱抱、笑着拖延等。\n中文文字使用手写涂鸦风，粗黑笔画，外侧带白色描边。文字像聊天贴纸字幕或漫画拟声字，可以略微弯曲、倾斜、大小不一，但必须清晰可读。文字可以放在画面顶部、底部、角色旁边、气泡中或角落，不要遮挡核心表情。可以加入问号、感叹号、汗滴、怒气符号、爱心、裂开线、星星、速度线等简洁漫画符号。\n不要使用编号、序号或列表式贴纸内容。16 个贴纸不是连续剧情，而是 16 次独立的聊天反应。每格都应能单独发送。整体保持统一干净可爱的 Q版二次元贴纸风格，同时让表情、动作、文案和构图有足够变化。",
+      "prompt_en": "Generate a chibi anime duo chat sticker sheet featuring two original chibi anime characters. One character is energetic and expressive with exaggerated poses, while the other is calm, sarcastic, and often looks speechless or judgmental. The two characters may appear separately or interact in some stickers.\nCreate one square canvas with 16 stickers arranged in a clear 4x4 grid. Each sticker is an independent image and may be a single-character close-up, a half-body sticker, or a two-character interaction. The overall layout must be clear, with visible separation between all cells, suitable for a chat sticker pack.\nUse cute chibi proportions for both characters: big heads, small bodies, rounded faces, simplified facial features, and clear emotions. The energetic character may have bright hair colors, starry eyes, exaggerated gestures, and a lively outfit. The calm character may have soft dark hair, half-open eyes, a neutral expression, and a simple outfit. Keep their recognizable traits consistent while allowing expressive exaggeration and cute simplification.\nThe whole sticker sheet should use a chibi anime meme sticker style. Each cell should be a close-up avatar or half-body composition, with the face and expression as the main visual focus. Use thick black or dark hand-drawn outlines, rounded elastic linework, flat color blocks, soft gradients, and saturated yet soft colors. Each sticker should have a pure white or nearly white background without complex scenery.\nNaturally distribute these Chinese captions across the 16 stickers: 真的假的, 我先躺一下, 别催了别催了, 懂了 但不改, 今天也很努力地摆烂, 救命啊！！, 偷偷开心, 你最好是, 不想说话, 让我康康, 问题不大, 已经裂开了, 我有点慌, 就这？, 抱抱我, 下次一定.\nEach cell should show a different emotion and action, such as shocked wide eyes, collapsing flat on the ground, holding the head while being rushed, stubbornly refusing with closed eyes, proudly giving up, crying for help, secretly smiling, suspicious side-eye, silently curling up, peeking curiously, pretending to stay calm, mentally cracking apart, sweating nervously, judging with a cold face, opening arms for a hug, or smiling while procrastinating.\nThe Chinese text should be handwritten doodle-style with thick black strokes and a white outer outline. The text should look like chat sticker captions or manga sound-effect lettering. It may be slightly curved, tilted, irregular in size, and playful, but must remain readable. Text may be placed at the top, bottom, beside the character, inside a speech bubble, or in a corner, but should not cover the main facial expression. Add simple manga symbols such as question marks, exclamation marks, sweat drops, anger marks, hearts, cracking lines, stars, or speed lines when helpful.\nDo not use numbering, serial labels, or list-like sticker content. The 16 stickers are not a continuous story, but 16 independent chat reactions. Each cell should work as a standalone sticker. Keep the whole sheet unified, clean, cute, and chibi anime styled, while varying the expressions, actions, captions, and compositions."
+    },
+    {
+      "case_name": "Q版小动物拟人表情包合集 / Chibi Animal Mascot Sticker Pack",
+      "variables": {
+        "CAPTIONS": "在忙 勿扰\n饭呢饭呢\n困到灵魂出走\n我不理解\n你再说一遍？\n好耶！！\n已读乱回\n不许凶我\n委屈但不说\n狠狠记仇\n偷偷路过\n马上就来\n懒得动了\n给你小花\n气鼓鼓\n我宣布 今天结束",
+        "CHARACTER_SOURCE": "一个原创Q版小动物拟人角色，例如小兔子、小狗或小熊",
+        "LAYOUT_SOURCE": "4x4 方形贴纸合集结构",
+        "GRID_COUNT": "16 枚，4x4 排列",
+        "STYLE_DNA": "Q版二次元、小动物拟人、圆润可爱、粗黑描边、白色背景、手写中文字幕、聊天贴纸感",
+        "TEXT_STYLE": "可爱手写中文，粗黑笔画，白描边，类似漫画字幕",
+        "EMOTION_RANGE": "忙碌、饥饿、困倦、疑惑、震惊、开心、敷衍、委屈、记仇、路过、赶来、懒惰、送花、生气、下班"
+      },
+      "prompt_zh": "生成一套 Q版二次元小动物拟人聊天贴纸表情包合集。主体是一个原创 Q版小动物拟人角色，可以是小兔子、小狗、小熊或其他圆润可爱的小动物形象。角色拥有圆圆的脸、大眼睛、小耳朵、短短的手脚和简洁可爱的服装或配饰。\n最终生成一张方形画布，共 16 枚贴纸，采用 4x4 排列。每个贴纸都是独立聊天表情包，采用近景头像或半身特写构图。整体排布清晰，每格之间有明确分隔，适合直接作为聊天贴纸合集。\n整套贴纸统一采用 Q版二次元萌系风格。角色比例为大头小身，轮廓圆润，表情夸张可爱。使用粗黑或深色描边，线条圆润、有弹性、干净清晰。颜色使用柔和高饱和配色，搭配扁平色块和轻微柔和渐变。背景保持纯白色或接近纯白色，不加入复杂场景。\n将以下中文文案自然分配到 16 枚贴纸中：在忙 勿扰、饭呢饭呢、困到灵魂出走、我不理解、你再说一遍？、好耶！！、已读乱回、不许凶我、委屈但不说、狠狠记仇、偷偷路过、马上就来、懒得动了、给你小花、气鼓鼓、我宣布 今天结束。\n每个贴纸都需要有不同的表情和动作。例如抱着小电脑假装忙碌、举碗等饭、灵魂从头顶飘出、歪头疑惑、震惊睁大眼、开心跳起、敷衍挥手、眼泪汪汪、鼓脸忍住委屈、拿小本本记仇、从画面边缘探头路过、快速奔跑赶来、趴在地上不动、双手递小花、脸颊鼓起生气、盖上小被子宣布今天结束等。\n中文文字使用手写涂鸦风，粗黑笔画，外侧带白色描边。文字可以像漫画字幕、聊天贴纸文字或拟声字，略微不规则、圆润、俏皮，但需要清晰可读。文字位置可以根据每格构图变化，放在顶部、底部、角色旁边、气泡中或边缘位置。可以加入爱心、小花、问号、感叹号、汗滴、怒气符号、速度线、睡眠符号等漫画情绪元素。\n不要使用编号、序号或连续剧情结构。16 个贴纸应是 16 次独立聊天表达。每个贴纸都能单独发送。整体需要统一、明亮、可爱、干净，具有 Q版二次元小动物表情包贴纸感。",
+      "prompt_en": "Generate a chibi anime animal mascot chat sticker sheet. The main subject is an original chibi anthropomorphic animal character, such as a bunny, puppy, bear, or another rounded cute animal mascot. The character has a rounded face, big eyes, small ears, short limbs, and a simple cute outfit or accessory.\nCreate one square canvas with 16 stickers arranged in a clear 4x4 grid. Each sticker is an independent chat reaction sticker, using a close-up avatar or half-body composition. The overall layout should be clear, with visible separation between each cell, suitable for a chat sticker pack.\nThe whole sticker sheet should use a unified chibi anime kawaii style. The character should have big-head-small-body proportions, rounded silhouettes, and exaggerated cute expressions. Use thick black or dark outlines with rounded, elastic, clean linework. Use soft saturated colors, flat color blocks, and subtle soft gradients. Keep the background pure white or nearly white without complex scenery.\nNaturally distribute these Chinese captions across the 16 stickers: 在忙 勿扰, 饭呢饭呢, 困到灵魂出走, 我不理解, 你再说一遍？, 好耶！！, 已读乱回, 不许凶我, 委屈但不说, 狠狠记仇, 偷偷路过, 马上就来, 懒得动了, 给你小花, 气鼓鼓, 我宣布 今天结束.\nEach sticker should have a different expression and action, such as holding a tiny laptop and pretending to be busy, holding a bowl and waiting for food, soul leaving the body from sleepiness, tilting the head in confusion, wide-eyed shock, jumping happily, casually waving with a perfunctory attitude, teary eyes, puffed cheeks while holding back sadness, writing revenge notes in a tiny notebook, peeking from the edge of the frame, running quickly, lying flat on the floor, offering a small flower with both hands, puffing cheeks in anger, or pulling up a blanket and declaring the day over.\nThe Chinese text should be handwritten doodle-style, with thick black strokes and a white outer outline. The lettering should resemble manga captions, chat sticker text, or sound-effect lettering. It may be slightly irregular, rounded, and playful, but must remain readable. Text placement may vary by cell, appearing at the top, bottom, beside the character, inside a speech bubble, or near the edge. Add manga emotion elements such as hearts, small flowers, question marks, exclamation marks, sweat drops, anger marks, speed lines, or sleep symbols when helpful.\nDo not use numbering, serial labels, or continuous story structure. The 16 stickers should be 16 independent chat reactions, and each sticker should work on its own. The overall result should be unified, bright, cute, clean, and clearly feel like a chibi anime animal mascot sticker pack."
+    }
+  ],
+  "recommended_aspect_ratio": [
+    "1:1"
+  ],
+  "recommended_parameters": {
+    "aspect_ratio": "",
+    "quality": "",
+    "seed": "",
+    "notes": {
+      "zh": "",
+      "en": ""
+    }
+  },
+  "tags": [
+    "image2",
+    "sticker",
+    "meme",
+    "chibi",
+    "anime",
+    "reaction",
+    "emoji",
+    "chat-sticker",
+    "chinese-caption"
+  ],
+  "created_at": "2026-05-22T02:41:08.585Z",
+  "updated_at": "2026-05-22T02:41:08.585Z",
+  "license": "MIT"
+}

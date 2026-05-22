@@ -109,6 +109,15 @@ Generated files in the target directory:
 - `source.md` — a copy of the original `prompt.md` for traceability
 - `example.jpg` (or `.png`) — the preview image
 
+## Inbox Cleanup
+
+After a successful import, **clear all files** from the inbox submission directory (the `<slug>` subdirectory). This keeps inbox ready for the next submission.
+
+- Remove `prompt.md`
+- Remove all image files (`example.png`, `example1.png`, etc.)
+- Keep the `<model>` directory structure and `.gitkeep` files intact
+- Keep `inbox/README.md`
+
 ## prompt.json Field Mapping Rules
 
 | prompt.json field | Source |
@@ -150,6 +159,11 @@ For Seedance 2, variables include: `DURATION`, `SUBJECT`, `LOCATION`, `ACTION`, 
 2. Copy the first found image to the target directory, renaming to `example.jpg` or `example.png` based on the original extension.
 3. Set `preview.image` in `prompt.json` to the copied filename (e.g. `"example.jpg"`).
 4. The preview path in `prompt.json` is a relative filename only — not an absolute path, not a URL.
+5. **Copy all additional images** (e.g. `example1.png`, `example2.png`) from the inbox directory to the target directory — these are reference images used by the prompt template.
+6. **Compress all images to under 1MB** while preserving original dimensions and clarity. Use `sharp` with palette-based PNG compression:
+   - For illustrations/stickers: prefer `{ palette: true, compressionLevel: 9 }` with `quality` 80-100 and `colors` 128-256
+   - Try progressively lower `quality` or `colors` until the file is under 1MB
+   - Never resize or downscale — only adjust encoding parameters
 
 ## README Update Rules
 
@@ -186,7 +200,7 @@ When adding a prompt, verify:
 - [ ] `slug` is lowercase, kebab-case, and unique
 - [ ] Chinese and English prompt templates both use valid variable placeholders
 - [ ] Variables used in templates match the variables defined in the table
-- [ ] Preview image is present and is a reasonable file size (under 5MB)
+- [ ] Preview image is present and all images are compressed to under 1MB (without resizing)
 - [ ] `npm run build` completes without errors
 - [ ] Generated `prompt.json` is valid JSON (can be parsed)
 - [ ] README gallery links navigate to the correct directory
