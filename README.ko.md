@@ -119,6 +119,7 @@ npm run update-readme
 <!-- PROMPT_GALLERY_START -->
 | 미리보기 | 모델 | 분류 | 프롬프트 | 태그 |
 | --- | --- | --- | --- | --- |
+| <img src="image2/portrait/casual-iphone-hotpot-cosplayer-snapshot/example.jpg" alt="Casual iPhone Hotpot Cosplayer Snapshot" width="80"> | image2 | portrait | [Casual iPhone Hotpot Cosplayer Snapshot](image2/portrait/casual-iphone-hotpot-cosplayer-snapshot/) | image2, portrait, cosplay, candid, iphone |
 | <img src="image2/portrait/soft-pink-boudoir-fashion-proposal/example.png" alt="Soft Pink Boudoir Fashion Proposal" width="80"> | image2 | portrait | [Soft Pink Boudoir Fashion Proposal](image2/portrait/soft-pink-boudoir-fashion-proposal/) | image2, portrait, fashion, infographic, chinese |
 | <img src="image2/sticker/chaotic-mspaint-chat-sticker-pack/example.png" alt="Chaotic MS Paint Chat Sticker Pack" width="80"> | image2 | sticker | [Chaotic MS Paint Chat Sticker Pack](image2/sticker/chaotic-mspaint-chat-sticker-pack/) | image2, sticker, meme, expression-pack, ms-paint |
 | <img src="image2/sticker/chibi-anime-chat-sticker-grid/example.png" alt="Chibi Anime Chat Sticker Grid" width="80"> | image2 | sticker | [Chibi Anime Chat Sticker Grid](image2/sticker/chibi-anime-chat-sticker-grid/) | image2, sticker, meme, chibi, anime |
