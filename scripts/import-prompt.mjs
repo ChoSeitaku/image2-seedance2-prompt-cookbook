@@ -140,14 +140,16 @@ function parseVariablesTable(body) {
   let inTable = false;
 
   for (const line of lines) {
-    if (line.includes('| Key ') || line.includes('| ---')) {
+    const trimmed = line.trim();
+    if (trimmed.includes('| Key ') || trimmed.includes('| ---')) {
       inTable = true;
       continue;
     }
     if (!inTable) continue;
-    if (!line.startsWith('|')) break;
+    if (!trimmed) continue; // skip empty lines inside table
+    if (!trimmed.startsWith('|')) break;
 
-    const cols = line.split('|').map(c => c.trim()).filter(c => c !== '');
+    const cols = trimmed.split('|').map(c => c.trim()).filter(c => c !== '');
     if (cols.length < 5) continue;
 
     const key = cols[0];

@@ -1,0 +1,192 @@
+{
+  "prompt_name": "iPhone Anime Convention Cosplay Snapshot",
+  "prompt_slug": "iphone-anime-convention-cosplay-snapshot",
+  "model": "Image2",
+  "version": "1.0.0",
+  "category": "portrait",
+  "language": [
+    "zh",
+    "en"
+  ],
+  "summary": {
+    "zh": "生成一张原生 iPhone 随手拍质感的成年女 coser 动漫展现场抓拍照，高度还原参考角色并保留真实展会氛围。",
+    "en": "Generate a raw iPhone-style candid anime convention snapshot of an adult female cosplayer accurately recreating a reference character with realistic venue atmosphere."
+  },
+  "use_case": {
+    "zh": [
+      "生成动漫展现场 iPhone 随手拍风格的 coser 人像",
+      "制作参考角色高度还原的现实化 cosplay 图",
+      "生成带有展会游客、白墙角落、三脚架手机等细节的纪实抓拍",
+      "用于动漫角色或游戏角色的真人化、展会化、社交平台化视觉改编",
+      "生成带有 JPEG 压缩、镜头污渍、轻微遮挡和动态模糊的真实感照片"
+    ],
+    "en": [
+      "Generate iPhone-style candid cosplayer portraits at anime conventions",
+      "Create highly faithful real-life cosplay images based on a reference character",
+      "Generate documentary-style convention snapshots with visitors, white wall corners, and tripod phones",
+      "Adapt anime or game characters into realistic convention and social-media-style visuals",
+      "Create realistic photos with JPEG compression, lens smudge, minor occlusion, and motion blur"
+    ]
+  },
+  "preview": {
+    "image": "example.png"
+  },
+  "prompt_template": {
+    "zh": "这是一张用 iPhone 随手拍下的现场照片，画面里一位成年女 coser 高度还原参考图中的角色。\n\n形象要求，严格复刻：发型、发色渐变、发饰必须和原作完全一致；服装款式、整体气质也分毫不差。面部轮廓与五官比例严格遵循原作设定，要能一眼认出对应角色，绝非千篇一律的网红长相。\n\n面部状态：颜值出众但妆容自然，采用二次元写实风格；皮肤保留细微毛孔并做轻度磨皮，淡妆素雅，脸颊与鼻尖带着淡淡腮红。因环境偏热，皮肤微微泛油发亮、局部泛红，可见薄汗与自然肤质纹理，拒绝过度磨皮的完美假肤效果。\n\n表情：尽量贴合参考图神态。\n\n头发：因天热和动作略显凌乱，几缕发丝贴在脸颊、脖颈处；发丝带有自然动态虚影，坐姿让发丝微微塌扁。\n\n服饰：严格还原原版设计，面料褶皱真实自然，衣着稍显松散，局部细节略有移位。\n\n姿势，重点：最大限度复刻参考图的动作姿态。\n\n拍摄场景，重点：地点为动漫展会现场。这位 coser，或连同其他同行 coser，站在地面三脚架支撑的手机前摆姿势，复刻原作造型。\n\n环境氛围：背景是场馆白色墙面，位置在展会一处相对安静的角落；零星游客从旁走过，地面散落几张宣传单，远处展台标识轻微虚化，整体保持角落静谧的氛围。\n\n画面构图，极重要：第一人称视角拍摄，人物不居中，画面小幅特写、裁切略显随意，身体局部被截出画面外。\n\n前景效果，重中之重：拍摄者的手臂或肩膀轻微入镜遮挡视线，另有路人部分入框；前景做轻微虚化处理，遮挡范围较小，不会挡住 coser 的脸部。\n\n相机画质：构图生硬、画面轻微倾斜，带有小幅动态模糊，对焦略虚；画面存在明显颗粒感，还有微信图片压缩特有的色块断层、边缘伪影等 JPEG 压缩痕迹。使用 iPhone 拍摄，等效 26mm 焦距；白平衡略有偏差，镜头有污渍造成朦胧感，画面一角还被手指轻微遮挡。\n\n光线：展会混合光源，顶部冷色调荧光灯，搭配展台漫出的暖光，白平衡、曝光均不够均匀，墙面区域光线比场馆中心更柔和。\n\n真实细节：背景人物带有轻微动态拖影。\n\n画面氛围：逛展途中偶然发现这位还原度极高的 coser，随即拉近镜头随手拍摄。对方察觉到镜头，自然地做出友善小动作回应。整个瞬间随性抓拍，两人有短暂互动，全程毫无摆拍痕迹，氛围轻松俏皮，是被抓拍后坦然相视的自然状态。\n\n画面风格：原生 iPhone 随手抓拍质感，非专业拍摄，非刻意摆拍，自然纪实感，带有轻微互动感，像是在展会现场偶然拍到的真实瞬间。",
+    "en": "A casual iPhone snapshot of an adult female cosplayer who is EXACTLY recreating the character from the reference image.\n\nEXTREMELY STRICT identity match: same hairstyle, same hair color gradients, same hair accessories, identical outfit structure, identical character vibe. Face structure MUST strictly follow the original character's proportions and features — highly recognizable as that specific character, NOT a generic pretty face.\n\nFace: very attractive but natural, anime-realism beauty, visible pores with slight smoothing, light natural makeup, soft blush on cheeks and nose, skin slightly oily and shiny due to warm temperature, slight redness from warmth, tiny imperfections such as light sweat and uneven texture, NOT overly perfect.\n\nExpression: match the reference image as closely as possible.\n\nHair: slightly messy from heat and movement, a few strands sticking to face or neck, natural motion blur, slightly flattened from sitting or posing.\n\nOutfit: perfectly faithful to the original design, real fabric with realistic wrinkles, slightly disheveled, small details slightly shifted.\n\nPose, IMPORTANT: replicate the reference image as much as possible.\n\nScene, IMPORTANT: at an anime convention, the cosplayer, either alone or with companions who are also cosplayers, is posing in front of a phone placed on a tripod standing on the ground, striking a pose that recreates the reference image.\n\nEnvironment: background is a white wall of the convention venue; she or they are posing in a relatively quiet corner of the convention, with a few visitors walking by, a few scattered flyers on the floor, and a distant exhibition booth sign slightly blurred in the background, keeping the quiet corner atmosphere.\n\nFraming, VERY IMPORTANT: feels like taken from your own point of view, subject is NOT centered, slightly zoomed-in, awkward crop, part of the body slightly cut off.\n\nForeground, EXTREMELY IMPORTANT: your own arm or shoulder partially blocking the view, another passerby slightly blocking the frame, foreground slightly out of focus. Foreground blockage is minor and does not obscure the cosplayer's face.\n\nCamera: bad composition, slightly tilted, slight motion blur, focus slightly off, visible grain, JPEG compression artifacts including visible macroblocking and ringing typical of WeChat image compression, shot on iPhone, 26mm equivalent, slightly wrong white balance, lens smudge or greasy blur, finger slightly covering a corner.\n\nLighting: mixed convention hall lighting, cool overhead fluorescents combined with soft warm spill from booth lights, slightly uneven white balance, slightly uneven exposure, wall area lighting softer than the central hall.\n\nExtra realism: subtle motion blur in the background people.\n\nMood: you are casually walking around the convention, notice a highly accurate cosplayer or cosplayers in a corner, zoom in and take a photo, she notices and casually responds with a small friendly gesture. The moment feels spontaneous, with a slight interaction but still completely unstaged.\n\nStyle: raw iPhone snapshot, NOT professional, NOT staged, natural candid feeling with a hint of interaction, slightly playful vibe, like acknowledging being caught on camera but still casual and natural."
+  },
+  "negative_prompt": {
+    "zh": "低质量，严重模糊，水印，文字，logo，变形，畸形，错误肢体，多余手指，缺失手指，手部扭曲，脸部崩坏，五官错位，眼睛不对称，无瑕肌肤，过度磨皮，塑料皮肤，假皮肤质感，网红脸，人偶感面容，专业棚拍，商业写真，影棚灯光，对称构图，人物居中，画面极致清晰，镜头过于干净，过度锐化，过度美颜，过度整洁背景，空旷展馆，背景完全无人，夸张摆拍，过度性感化，裸露，色情，未成年，儿童，幼态化，低俗表情。",
+    "en": "low quality, extremely blurry, watermark, text, logo, deformed, bad anatomy, wrong limbs, extra fingers, missing fingers, twisted hands, broken face, misplaced facial features, asymmetrical eyes, perfect skin, excessive skin smoothing, plastic skin, fake skin texture, generic influencer face, doll-like face, professional studio shoot, commercial photoshoot, studio lighting, symmetrical composition, centered framing, extremely sharp focus, overly clean lens, over-sharpened, over-beautified, overly tidy background, empty convention hall, no background people, exaggerated posing, over-sexualized, nudity, pornographic, underage, child, infantilized, vulgar expression."
+  },
+  "variables": {
+    "SUBJECT": {
+      "zh": "主体",
+      "en": "Subject",
+      "example_zh": "一位成年女 coser",
+      "example_en": "an adult female cosplayer"
+    },
+    "REFERENCE_CHARACTER": {
+      "zh": "参考角色",
+      "en": "Reference character",
+      "example_zh": "参考图中的角色",
+      "example_en": "the character from the reference image"
+    },
+    "HAIRSTYLE": {
+      "zh": "发型",
+      "en": "Hairstyle",
+      "example_zh": "与原作完全一致的发型",
+      "example_en": "the exact same hairstyle as the original character"
+    },
+    "HAIR_COLOR": {
+      "zh": "发色",
+      "en": "Hair color",
+      "example_zh": "与原作完全一致的发色渐变",
+      "example_en": "the exact same hair color gradients as the original character"
+    },
+    "HAIR_ACCESSORIES": {
+      "zh": "发饰",
+      "en": "Hair accessories",
+      "example_zh": "与原作完全一致的发饰",
+      "example_en": "identical hair accessories from the original character"
+    },
+    "OUTFIT": {
+      "zh": "服装",
+      "en": "Outfit",
+      "example_zh": "严格还原原版设计的 cosplay 服装",
+      "example_en": "a cosplay outfit perfectly faithful to the original design"
+    },
+    "FACE_FEATURES": {
+      "zh": "面部特征",
+      "en": "Face features",
+      "example_zh": "高度贴合原作比例，非网红脸",
+      "example_en": "strictly matching the original proportions, not a generic influencer face"
+    },
+    "EXPRESSION": {
+      "zh": "表情",
+      "en": "Expression",
+      "example_zh": "尽量贴合参考图神态",
+      "example_en": "matching the reference image expression as closely as possible"
+    },
+    "POSE": {
+      "zh": "姿势",
+      "en": "Pose",
+      "example_zh": "最大限度复刻参考图动作姿态",
+      "example_en": "replicating the reference image pose as much as possible"
+    },
+    "LOCATION": {
+      "zh": "场景",
+      "en": "Location",
+      "example_zh": "动漫展会现场安静角落",
+      "example_en": "a quiet corner of an anime convention venue"
+    },
+    "BACKGROUND_DETAILS": {
+      "zh": "背景细节",
+      "en": "Background details",
+      "example_zh": "白色墙面、零星游客、散落宣传单、远处虚化展台标识",
+      "example_en": "white wall, a few visitors, scattered flyers, blurred distant booth sign"
+    },
+    "FOREGROUND_OCCLUSION": {
+      "zh": "前景遮挡",
+      "en": "Foreground occlusion",
+      "example_zh": "拍摄者手臂或肩膀轻微入镜，路人部分入框",
+      "example_en": "photographer's arm or shoulder slightly in frame, passerby partially blocking the view"
+    },
+    "CAMERA_STYLE": {
+      "zh": "拍摄风格",
+      "en": "Camera style",
+      "example_zh": "原生 iPhone 随手抓拍",
+      "example_en": "raw iPhone candid snapshot"
+    },
+    "IMAGE_QUALITY": {
+      "zh": "画质质感",
+      "en": "Image quality",
+      "example_zh": "颗粒感、微信式 JPEG 压缩痕迹、镜头污渍、轻微动态模糊",
+      "example_en": "grain, WeChat-style JPEG compression artifacts, lens smudge, slight motion blur"
+    },
+    "LIGHTING": {
+      "zh": "光线",
+      "en": "Lighting",
+      "example_zh": "展会冷色荧光灯与展台暖光混合",
+      "example_en": "mixed cool convention fluorescents and warm booth light spill"
+    },
+    "MOOD": {
+      "zh": "氛围",
+      "en": "Mood",
+      "example_zh": "逛展时偶然发现高还原 coser 后随手拍下的轻松互动瞬间",
+      "example_en": "a spontaneous playful interaction after noticing a highly accurate cosplayer while walking around the convention"
+    }
+  },
+  "example_cases": [
+    {
+      "case_name": "Anime Convention iPhone Candid Cosplay Snapshot",
+      "variables": {
+        "SUBJECT": "一位成年女 coser",
+        "REFERENCE_CHARACTER": "参考图中的角色",
+        "HAIRSTYLE": "与原作完全一致的发型",
+        "HAIR_COLOR": "与原作完全一致的发色渐变",
+        "HAIR_ACCESSORIES": "与原作完全一致的发饰",
+        "OUTFIT": "严格还原原版设计的 cosplay 服装",
+        "FACE_FEATURES": "高度贴合原作比例，非网红脸",
+        "EXPRESSION": "尽量贴合参考图神态",
+        "POSE": "最大限度复刻参考图动作姿态",
+        "LOCATION": "动漫展会现场安静角落",
+        "BACKGROUND_DETAILS": "白色墙面、零星游客、散落宣传单、远处虚化展台标识",
+        "FOREGROUND_OCCLUSION": "拍摄者手臂或肩膀轻微入镜，路人部分入框",
+        "CAMERA_STYLE": "原生 iPhone 随手抓拍",
+        "IMAGE_QUALITY": "颗粒感、微信式 JPEG 压缩痕迹、镜头污渍、轻微动态模糊",
+        "LIGHTING": "展会冷色荧光灯与展台暖光混合",
+        "MOOD": "逛展时偶然发现高还原 coser 后随手拍下的轻松互动瞬间"
+      },
+      "prompt_zh": "这是一张用 iPhone 随手拍下的现场照片，画面里一位成年女 coser 高度还原参考图中的角色。\n\n\n\n形象要求，严格复刻：发型、发色渐变、发饰必须和原作完全一致；服装款式、整体气质也分毫不差。面部轮廓与五官比例严格遵循原作设定，要能一眼认出对应角色，绝非千篇一律的网红长相。\n\n\n\n面部状态：颜值出众但妆容自然，采用二次元写实风格；皮肤保留细微毛孔并做轻度磨皮，淡妆素雅，脸颊与鼻尖带着淡淡腮红。因环境偏热，皮肤微微泛油发亮、局部泛红，可见薄汗与自然肤质纹理，拒绝过度磨皮的完美假肤效果。\n\n\n\n表情：尽量贴合参考图神态。\n\n\n\n头发：因天热和动作略显凌乱，几缕发丝贴在脸颊、脖颈处；发丝带有自然动态虚影，坐姿让发丝微微塌扁。\n\n\n\n服饰：严格还原原版设计，面料褶皱真实自然，衣着稍显松散，局部细节略有移位。\n\n\n\n姿势，重点：最大限度复刻参考图的动作姿态。\n\n\n\n拍摄场景，重点：地点为动漫展会现场。这位 coser，或连同其他同行 coser，站在地面三脚架支撑的手机前摆姿势，复刻原作造型。\n\n\n\n环境氛围：背景是场馆白色墙面，位置在展会一处相对安静的角落；零星游客从旁走过，地面散落几张宣传单，远处展台标识轻微虚化，整体保持角落静谧的氛围。\n\n\n\n画面构图，极重要：第一人称视角拍摄，人物不居中，画面小幅特写、裁切略显随意，身体局部被截出画面外。\n\n\n\n前景效果，重中之重：拍摄者的手臂或肩膀轻微入镜遮挡视线，另有路人部分入框；前景做轻微虚化处理，遮挡范围较小，不会挡住 coser 的脸部。\n\n\n\n相机画质：构图生硬、画面轻微倾斜，带有小幅动态模糊，对焦略虚；画面存在明显颗粒感，还有微信图片压缩特有的色块断层、边缘伪影等 JPEG 压缩痕迹。使用 iPhone 拍摄，等效 26mm 焦距；白平衡略有偏差，镜头有污渍造成朦胧感，画面一角还被手指轻微遮挡。\n\n\n\n光线：展会混合光源，顶部冷色调荧光灯，搭配展台漫出的暖光，白平衡、曝光均不够均匀，墙面区域光线比场馆中心更柔和。\n\n\n\n真实细节：背景人物带有轻微动态拖影。\n\n\n\n画面氛围：逛展途中偶然发现这位还原度极高的 coser，随即拉近镜头随手拍摄。对方察觉到镜头，自然地做出友善小动作回应。整个瞬间随性抓拍，两人有短暂互动，全程毫无摆拍痕迹，氛围轻松俏皮，是被抓拍后坦然相视的自然状态。\n\n\n\n画面风格：原生 iPhone 随手抓拍质感，非专业拍摄，非刻意摆拍，自然纪实感，带有轻微互动感，像是在展会现场偶然拍到的真实瞬间。",
+      "prompt_en": "A casual iPhone snapshot of an adult female cosplayer who is EXACTLY recreating the character from the reference image.\n\n\n\nEXTREMELY STRICT identity match: same hairstyle, same hair color gradients, same hair accessories, identical outfit structure, identical character vibe. Face structure MUST strictly follow the original character's proportions and features — highly recognizable as that specific character, NOT a generic pretty face.\n\n\n\nFace: very attractive but natural, anime-realism beauty, visible pores with slight smoothing, light natural makeup, soft blush on cheeks and nose, skin slightly oily and shiny due to warm temperature, slight redness from warmth, tiny imperfections such as light sweat and uneven texture, NOT overly perfect.\n\n\n\nExpression: match the reference image as closely as possible.\n\n\n\nHair: slightly messy from heat and movement, a few strands sticking to face or neck, natural motion blur, slightly flattened from sitting or posing.\n\n\n\nOutfit: perfectly faithful to the original design, real fabric with realistic wrinkles, slightly disheveled, small details slightly shifted.\n\n\n\nPose, IMPORTANT: replicate the reference image as much as possible.\n\n\n\nScene, IMPORTANT: at an anime convention, the cosplayer, either alone or with companions who are also cosplayers, is posing in front of a phone placed on a tripod standing on the ground, striking a pose that recreates the reference image.\n\n\n\nEnvironment: background is a white wall of the convention venue; she or they are posing in a relatively quiet corner of the convention, with a few visitors walking by, a few scattered flyers on the floor, and a distant exhibition booth sign slightly blurred in the background, keeping the quiet corner atmosphere.\n\n\n\nFraming, VERY IMPORTANT: feels like taken from your own point of view, subject is NOT centered, slightly zoomed-in, awkward crop, part of the body slightly cut off.\n\n\n\nForeground, EXTREMELY IMPORTANT: your own arm or shoulder partially blocking the view, another passerby slightly blocking the frame, foreground slightly out of focus. Foreground blockage is minor and does not obscure the cosplayer's face.\n\n\n\nCamera: bad composition, slightly tilted, slight motion blur, focus slightly off, visible grain, JPEG compression artifacts including visible macroblocking and ringing typical of WeChat image compression, shot on iPhone, 26mm equivalent, slightly wrong white balance, lens smudge or greasy blur, finger slightly covering a corner.\n\n\n\nLighting: mixed convention hall lighting, cool overhead fluorescents combined with soft warm spill from booth lights, slightly uneven white balance, slightly uneven exposure, wall area lighting softer than the central hall.\n\n\n\nExtra realism: subtle motion blur in the background people.\n\n\n\nMood: you are casually walking around the convention, notice a highly accurate cosplayer or cosplayers in a corner, zoom in and take a photo, she notices and casually responds with a small friendly gesture. The moment feels spontaneous, with a slight interaction but still completely unstaged.\n\n\n\nStyle: raw iPhone snapshot, NOT professional, NOT staged, natural candid feeling with a hint of interaction, slightly playful vibe, like acknowledging being caught on camera but still casual and natural."
+    }
+  ],
+  "recommended_aspect_ratio": [
+    "3:4",
+    "4:5",
+    "1:1"
+  ],
+  "recommended_parameters": {
+    "aspect_ratio": "",
+    "quality": "",
+    "seed": "",
+    "notes": {
+      "zh": "",
+      "en": ""
+    }
+  },
+  "tags": [
+    "image2",
+    "portrait",
+    "cosplay",
+    "anime-convention",
+    "iphone-snapshot",
+    "candid",
+    "anime-realism",
+    "reference-character"
+  ],
+  "created_at": "2026-05-26T03:22:28.631Z",
+  "updated_at": "2026-05-26T03:22:28.631Z",
+  "license": "MIT"
+}
