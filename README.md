@@ -119,6 +119,7 @@ See [docs/contribution-guide.md](docs/contribution-guide.md) for detailed instru
 <!-- PROMPT_GALLERY_START -->
 | Preview | Model | Category | Prompt | Tags |
 | --- | --- | --- | --- | --- |
+| <img src="image2/portrait/anime-pencil-sketch-character-design-sheet/example.jpg" alt="Anime Pencil Sketch Character Design Sheet" width="80"> | image2 | portrait | [Anime Pencil Sketch Character Design Sheet](image2/portrait/anime-pencil-sketch-character-design-sheet/) | image2, portrait, character-design, anime, pencil-sketch |
 | <img src="image2/portrait/casual-iphone-hotpot-cosplayer-snapshot/example.jpg" alt="Casual iPhone Hotpot Cosplayer Snapshot" width="80"> | image2 | portrait | [Casual iPhone Hotpot Cosplayer Snapshot](image2/portrait/casual-iphone-hotpot-cosplayer-snapshot/) | image2, portrait, cosplay, candid, iphone |
 | <img src="image2/portrait/iphone-anime-convention-cosplay-snapshot/example.png" alt="iPhone Anime Convention Cosplay Snapshot" width="80"> | image2 | portrait | [iPhone Anime Convention Cosplay Snapshot](image2/portrait/iphone-anime-convention-cosplay-snapshot/) | image2, portrait, cosplay, anime-convention, iphone-snapshot |
 | <img src="image2/portrait/iphone-mirror-selfie-cosplay-bedroom/example.png" alt="iPhone Mirror Selfie Cosplay Bedroom Portrait" width="80"> | image2 | portrait | [iPhone Mirror Selfie Cosplay Bedroom Portrait](image2/portrait/iphone-mirror-selfie-cosplay-bedroom/) | image2, portrait, cosplay, mirror-selfie, iphone-snapshot |
